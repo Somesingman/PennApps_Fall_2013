@@ -55,4 +55,13 @@ public class Note implements Comparable<Note>{
 		else if(this.duration > n.getDuration()) return 1;
 		else return 0;
 	}
+	public boolean equals(Note n){
+		if(this.pitch.equals(n.getPitch()) &&  this.step.equals(n.getStep())
+				&& this.alter.equals(n.getAlter()) && this.octave == n.getOctave()
+				&& this.chord == n.getChord() && this.duration == n.getDuration()){
+			return true;
+		}
+		else return false;
+	}
+
 }
