@@ -39,19 +39,41 @@ public class Converter {
 					input.setAlter(input.getAlter() - 1);
 				}
 				//if we are changing note name
+				else if(!input.getStep().equals("C") && !input.getStep().equals("F")){
+					//step alter octave
+					//if it is Db, Eb, Gb, Ab, or Bb
+					if(		inputNumber == 1 || 
+							inputNumber == 3 || 
+							inputNumber == 6 || 
+							inputNumber == 8 || 
+							inputNumber == 10){
+						input.setAlter(0);
+						input.setStep(getNoteFromNumber(inputNumber - 1));
+					}
+				}
+				else if(input.getStep().equals("F")){
+					input.setStep("E");
+					input.setAlter(0);
+				}
+				//it's a C
 				else {
-					inputNumber--;
-					
+					input.setStep("B");
+					input.setAlter(0);
+					input.setOctave(input.getOctave() - 1);
 				}
 			}
 			
 		}
 		
-		
-		//change
-		return null;
+		return input;
 	}
 	
-	
+	//Does not guarantee picking between # and b when they are the same note
+	private String getNoteFromNumber(int n){
+		int index = 0;
+		n = n % 12; //sanitize input
+		while(n != noteValues[index]) index++;
+		return notes.get(index);
+	}
 	
 }
