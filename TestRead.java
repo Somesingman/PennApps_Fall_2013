@@ -6,4 +6,3 @@ public class TestRead {
     read.readConfig("MusicXML.xml");
   }
 }
-

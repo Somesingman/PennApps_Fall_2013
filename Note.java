@@ -1,4 +1,5 @@
-public class Note {
+
+public class Note implements Comparable<Note>{
 
   private String pitch = "";
   private String step = "";
@@ -43,9 +44,14 @@ public class Note {
   public void setDuration(int duration) {
     this.duration = duration;
   }
-  
   public String toString(){
 	  return "Pitch: " + pitch + "\nChord: " + chord + "\nDuration: " + duration + 
 			  "\nStep: " + step + "\nOctave: " + octave;
   }
+	@Override
+	public int compareTo(Note n) {
+		if(this.duration < n.getDuration()) return -1;
+		else if(this.duration > n.getDuration()) return 1;
+		else return 0;
+	}
 }

@@ -77,4 +77,4 @@ public class Part {
 		return "Part [alter=" + alter + ", measure=" + measure + ", octave="
 				+ octave + ", note=" + note + ", pitch=" + pitch + "]";
 	}
-} 
+}
