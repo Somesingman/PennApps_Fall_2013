@@ -43,11 +43,20 @@ public class Note implements Comparable<Note>{
   public void setDuration(int duration) {
     this.duration = duration;
   }
-	@Override
-	public int compareTo(Note n) {
-		if(this.duration < n.getDuration()) return -1;
-		else if(this.duration > n.getDuration()) return 1;
-		else return 0;
+@Override
+public int compareTo(Note n) {
+	if(this.duration < n.getDuration()) return -1;
+	else if(this.duration > n.getDuration()) return 1;
+	else return 0;
+}
+public boolean equals(Note n){
+	if(this.pitch.equals(n.getPitch()) &&  this.step.equals(n.getStep())
+			&& this.alter.equals(n.getAlter()) && this.octave.equals(n.getOctave())
+			&& this.chord.equals(n.getChord()) && this.duration == n.getDuration()){
+		return true;
 	}
+	else return false;
+}
+	
 
 }
