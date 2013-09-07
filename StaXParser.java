@@ -31,8 +31,9 @@ public class StaXParser {
 	static final String DURATION = "duration";
 	static final String VOICE = "voice";
 	static final String KEY = "key";
-	static final String ATTRIBUTE = "attribute";
+	static final String ATTRIBUTES = "attributes";
 	static final String MODE = "mode";
+	static final String FIFTH = "fifth";
 
 
 	@SuppressWarnings({ "unchecked", "null" })
@@ -52,7 +53,8 @@ public class StaXParser {
 
 			// Read the XML document
 			Part part = null;
-
+			String mode = "";
+			int fifth = 0;
 			while (eventReader.hasNext()) {
 				XMLEvent event = eventReader.nextEvent();
 				bw.write(event.toString());
@@ -69,50 +71,71 @@ public class StaXParser {
 							ArrayList<Note> measure = new ArrayList<Note>();
 							int counter = 0;
 							boolean endAttribute = false;
-							String mode = "";
+
 							while(eventReader.hasNext() && !endMeasure){
 								event = eventReader.nextEvent();
 
 								if(event.isStartElement() && 
-										event.asStartElement().getName().toString().equals(ATTRIBUTE)){
+										event.asStartElement().getName().toString().equals(ATTRIBUTES)){
 
 									while(eventReader.hasNext() && !endAttribute){
-
+										
 										if(event.isEndElement() &&
-												event.asEndElement().getName().toString().equals(ATTRIBUTE)){
+												event.asEndElement().getName().toString().equals(ATTRIBUTES)){
 											endAttribute = true;
 											bw.write(event.toString());
+											System.out.println("HI");
 										}
 										else if(event.isStartElement()){
 											String currentTag = event.asStartElement().getName().toString();
-
+											System.out.println(event);
+											event = eventReader.nextEvent();
 											if(currentTag.equals(KEY)){
+												
 												boolean endKey = false;
 
 												while(eventReader.hasNext() && !endKey){
-
+													
+													System.out.println(event);
 													if(event.isEndElement() &&
 															event.asEndElement().getName().toString().equals(KEY))
 														endKey = true;
 
 													if(event.isStartElement()){
+														System.out.println(event);
 														currentTag = event.asStartElement().getName().toString();
-
-														if(currentTag.equals(MODE)){
-
+														while(eventReader.hasNext() && !endKey){
 															event = eventReader.nextEvent();
+															if(currentTag.equals(MODE)){
 
-															if(event.isCharacters()){
-																String character = event.asCharacters().getData().toString();
-																mode = character;
+																event = eventReader.nextEvent();
+
+																if(event.isCharacters()){
+																	String character = event.asCharacters().getData().toString();
+																	mode = character;
+																}
 															}
+
+															if(currentTag.equals(FIFTH)){
+
+																event = eventReader.nextEvent();
+
+																if(event.isCharacters()){
+																	String character = event.asCharacters().getData().toString();
+																	fifth = Integer.parseInt(character);
+																}
+															}
+															
 														}
+
 													}
 												}
 											}
 										}
 										else
 											bw.write(event.toString());
+										if(eventReader.hasNext() && !endAttribute)
+											event = eventReader.nextEvent();
 									}
 								}
 								else if(event.isEndElement() &&
@@ -122,8 +145,10 @@ public class StaXParser {
 								//New Note
 								else if(event.isStartElement() && 
 										event.asStartElement().getName().toString().equals(NOTE)){
+									//System.out.println("Goes in here and mode = " + mode + "\n fifth = " + fifth);
 									Note current = new Note();
 									current.setMode(mode);
+									current.setFifth(fifth);
 									boolean endNote = false;
 									String currentTag = "";
 
@@ -146,8 +171,6 @@ public class StaXParser {
 											//System.out.println(currentTag + " : " + character);
 											if(currentTag.equals(STEP) && current.getStep().length()!=1)
 												current.setStep(character);
-
-
 
 											if(currentTag.equals(DURATION) && current.getDuration() == 0){
 												current.setPosition(counter);
