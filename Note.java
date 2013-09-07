@@ -1,4 +1,3 @@
-
 public class Note implements Comparable<Note>{
 
   private String step = "";
@@ -7,6 +6,8 @@ public class Note implements Comparable<Note>{
   private boolean chord = false;
   private int duration = 0;
   private int position = 0;
+  private int voice = 0;
+  private String mode = "";
 
   public String getStep() {
     return step;
@@ -44,6 +45,18 @@ public class Note implements Comparable<Note>{
   public void setPosition(int position){
     this.position = position;
   }
+  public int getVoice() {
+    return voice;
+  }
+  public void setVoice(int voice){
+    this.voice = voice;
+  }
+  public String getMode() {
+    return mode;
+  }
+  public void setMode(String mode){
+    this.mode = mode;
+  }
 
   public String toString(){
 	  return "Chord: " + chord + "\nDuration: " + duration + 
@@ -51,14 +64,14 @@ public class Note implements Comparable<Note>{
   }
 	@Override
 	public int compareTo(Note n) {
-		if(this.duration < n.getDuration()) return -1;
-		else if(this.duration > n.getDuration()) return 1;
+		if(this.position < n.getPosition()) return -1;
+		else if(this.position > n.getPosition()) return 1;
 		else return 0;
 	}
 	public boolean equals(Note n){
-		if(this.step.equals(n.getStep())&& this.alter == n.getAlter() 
-				&& this.octave == n.getOctave() && this.chord == n.getChord() 
-				&& this.duration == n.getDuration()){
+		if(this.step.equals(n.getStep()) && this.alter == n.getAlter() 
+      && this.octave == n.getOctave() && this.chord == n.getChord() 
+      && this.duration == n.getDuration()){
 			return true;
 		}
 		else return false;
