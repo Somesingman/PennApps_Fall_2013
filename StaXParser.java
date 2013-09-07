@@ -42,7 +42,7 @@ public class StaXParser {
       while (eventReader.hasNext()) {
         XMLEvent event = eventReader.nextEvent();
 
-        if (event.asStartElement().getName().equals(PART){
+        if (event.asStartElement().getName().equals(PART)){
 
           if (event.isStartElement()) {
             StartElement startElement = event.asStartElement();
@@ -52,51 +52,18 @@ public class StaXParser {
               
 
             }
-
-            if (event.isStartElement()) {
-              if (event.asStartElement().getName().getLocalPart()
-                  .equals(MODE)) {
-                event = eventReader.nextEvent();
-                item.setMode(event.asCharacters().getData());
-                continue;
-              }
-            }
-            if (event.asStartElement().getName().getLocalPart()
-                .equals(UNIT)) {
-              event = eventReader.nextEvent();
-              item.setUnit(event.asCharacters().getData());
-              continue;
-            }
-
-            if (event.asStartElement().getName().getLocalPart()
-                .equals(CURRENT)) {
-              event = eventReader.nextEvent();
-              item.setCurrent(event.asCharacters().getData());
-              continue;
-            }
-
-            if (event.asStartElement().getName().getLocalPart()
-                .equals(INTERACTIVE)) {
-              event = eventReader.nextEvent();
-              item.setInteractive(event.asCharacters().getData());
-              continue;
-            }
-          }
-          // If we reach the end of an item element we add it to the list
-          if (event.isEndElement()) {
-            EndElement endElement = event.asEndElement();
-            if (endElement.getName().getLocalPart() == (ITEM)) {
-              items.add(item);
-            }
           }
         }
+
+        System.out.println(event);
+
       }
     } catch (FileNotFoundException e) {
       e.printStackTrace();
     } catch (XMLStreamException e) {
       e.printStackTrace();
     }
-    return items;
+    return null;
   }
 
 } 

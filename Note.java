@@ -37,7 +37,7 @@ public class Note {
   public void setChord(String chord) {
     this.chord = chord;
   }
-  public String getDuration() {
+  public int getDuration() {
     return duration;
   }
   public void setDuration(String duration) {
