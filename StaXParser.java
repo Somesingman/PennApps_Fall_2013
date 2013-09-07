@@ -1,5 +1,8 @@
+import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -42,12 +45,17 @@ public class StaXParser {
 			System.out.println(configFile);
 			InputStream in = new FileInputStream(configFile);
 			XMLEventReader eventReader = inputFactory.createXMLEventReader(in);
+
+			FileWriter fw = new FileWriter("newXML.xml");
+
+			BufferedWriter bw = new BufferedWriter(fw);
+
 			// Read the XML document
 			Part part = null;
 
 			while (eventReader.hasNext()) {
 				XMLEvent event = eventReader.nextEvent();
-
+				bw.write(event.toString());
 				if (event.isStartElement() && 
 						event.asStartElement().getName().toString().equals(PART)){
 
@@ -71,10 +79,11 @@ public class StaXParser {
 									while(eventReader.hasNext() && !endAttribute){
 
 										if(event.isEndElement() &&
-												event.asEndElement().getName().toString().equals(ATTRIBUTE))
+												event.asEndElement().getName().toString().equals(ATTRIBUTE)){
 											endAttribute = true;
-
-										if(event.isStartElement()){
+											bw.write(event.toString());
+										}
+										else if(event.isStartElement()){
 											String currentTag = event.asStartElement().getName().toString();
 
 											if(currentTag.equals(KEY)){
@@ -102,15 +111,16 @@ public class StaXParser {
 												}
 											}
 										}
+										else
+											bw.write(event.toString());
 									}
 								}
-								
-								if(event.isEndElement() &&
+								else if(event.isEndElement() &&
 										event.asEndElement().getName().toString().equals(MEASURE))
 									endMeasure = true;
-								
+
 								//New Note
-								if(event.isStartElement() && 
+								else if(event.isStartElement() && 
 										event.asStartElement().getName().toString().equals(NOTE)){
 									Note current = new Note();
 									current.setMode(mode);
@@ -143,11 +153,7 @@ public class StaXParser {
 												current.setPosition(counter);
 												current.setDuration(Integer.parseInt(character));
 												counter = counter + current.getDuration();
-												
 											}
-
-
-
 											if(currentTag.equals(OCTAVE) && current.getOctave() == 0)
 												current.setOctave(Integer.parseInt(character));
 
@@ -164,11 +170,10 @@ public class StaXParser {
 									System.out.println(current);
 									System.out.println("********");
 									measure.add(current);
-									
+
 									//System.out.println(measure.size());
 								}
-
-								if(event.isStartElement() && 
+								else if(event.isStartElement() && 
 										event.asStartElement().getName().toString().equals(BACKUP)){
 									event = eventReader.nextEvent();
 									if(event.isStartElement() && event.asStartElement().getName().toString().equals(DURATION)){
@@ -183,10 +188,13 @@ public class StaXParser {
 
 
 								}
+								else
+									bw.write(event.toString());
 							}
 
 						}
-
+						else
+							bw.write(event.toString());
 					}
 				}
 				/*
@@ -199,9 +207,13 @@ public class StaXParser {
 				System.out.println("********************");
 				 */
 			}
+
+			bw.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (XMLStreamException e) {
+			e.printStackTrace();
+		}catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
