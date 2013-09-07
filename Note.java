@@ -6,7 +6,7 @@ public class Note implements Comparable<Note>{
   private int octave = 0;
   private boolean chord = false;
   private int duration = 0;
-  private int counter = 0;
+  private int position = 0;
 
   public String getStep() {
     return step;
@@ -38,16 +38,16 @@ public class Note implements Comparable<Note>{
   public void setDuration(int duration) {
     this.duration = duration;
   }
-  public int getCounter() {
-    return counter;
+  public int getPosition() {
+    return position;
   }
-  public void setCounter(int counter){
-    this.counter = counter;
+  public void setPosition(int position){
+    this.position = position;
   }
 
   public String toString(){
 	  return "Pitch: " + pitch + "\nChord: " + chord + "\nDuration: " + duration + 
-			  "\nStep: " + step + "\nOctave: " + octave;
+			  "\nStep: " + step + "\nOctave: " + octave + "\nPosition: " + position;
   }
 	@Override
 	public int compareTo(Note n) {

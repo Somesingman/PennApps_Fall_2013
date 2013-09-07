@@ -26,6 +26,7 @@ public class StaXParser {
 	static final String TIE = "tie";
 	static final String BACKUP =  "backup";
 	static final String DURATION = "duration";
+  int counter = 0;
 
 	@SuppressWarnings({ "unchecked", "null" })
 	public void readConfig(String configFile) {
@@ -45,37 +46,54 @@ public class StaXParser {
 
 				if (event.isStartElement() && 
 						event.asStartElement().getName().toString().equals(PART)){
+
 					while(eventReader.hasNext()){
 						event = eventReader.nextEvent();
+
 						if(event.isStartElement() && 
 								event.asStartElement().getName().toString().equals(MEASURE)){
 							ArrayList<Note> measure = new ArrayList<Note>();
+
 							while(eventReader.hasNext()){
 								event = eventReader.nextEvent();
-								//New Note
+							  
+                //New Note
 								if(event.isStartElement() && 
 										event.asStartElement().getName().toString().equals(NOTE)){
 									Note current = new Note();
 									boolean endNote = false;
 									String currentTag = "";
+
 									while(eventReader.hasNext() && !endNote){
+
 										if(event.isEndElement() &&
 												event.asEndElement().getName().toString().equals(NOTE))
-											endNote = true;
+										endNote = true;
+
 										if(event.isStartElement()){
 											currentTag = event.asStartElement().getName().toString();
+
 											if(currentTag.equals(CHORD))
 												current.setChord(true);
 										}
+
 										if(event.isCharacters()){
 											String character = event.asCharacters().getData().toString();
+
 											//System.out.println(currentTag + " : " + character);
 											if(currentTag.equals(STEP) && current.getStep().length()!=1)
 												current.setStep(character);
+
+                      current.setPosition(counter);
+
 											if(currentTag.equals(DURATION) && current.getDuration() == 0)
 												current.setDuration(Integer.parseInt(character));
+
+                      counter = counter + current.getDuration();
+
 											if(currentTag.equals(OCTAVE) && current.getOctave() == 0)
 												current.setOctave(Integer.parseInt(character));
+
                       if(currentTag.equals(ALTER) && current.getAlter() == 0)
                         current.setAlter(Integer.parseInt(character));
 										}
@@ -87,8 +105,18 @@ public class StaXParser {
 									System.out.println("********");
 									measure.add(current);
 								}
-									
-							}
+
+								
+
+                if(currentTag.equals(BACKUP) && current.getPosition() == 0){
+
+                  if(event.isCharacters()){
+                    String character = event.asCharacters().getData().toString();
+                  }
+                  
+                  counter = counter - Integer.parseInt(character);
+                  current.setPosition(counter);
+							  }
 						}
 							
 					}
