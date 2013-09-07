@@ -27,7 +27,10 @@ public class StaXParser {
 	static final String BACKUP =  "backup";
 	static final String DURATION = "duration";
   static final String VOICE = "voice";
-  int counter = 0;
+  static final String KEY = "key";
+  static final String ATTRIBUTE = "attribute";
+  static final 
+
 
 	@SuppressWarnings({ "unchecked", "null" })
 	public void readConfig(String configFile) {
@@ -54,10 +57,53 @@ public class StaXParser {
 						if(event.isStartElement() && 
 								event.asStartElement().getName().toString().equals(MEASURE)){
 							ArrayList<Note> measure = new ArrayList<Note>();
+              String key = "";
+              int counter = 0;
+              boolean endAttribute = false;
 
 							while(eventReader.hasNext()){
 								event = eventReader.nextEvent();
-							  
+
+                if(event.isStartElement() && 
+                    event.asStartElement().getName().toString().equals(ATTRIBUTE)){
+
+                  while(eventReader.hasNext() && !endAttribute){
+
+                    if(event.isEndElement() &&
+                        event.asEndElement().getName().toString().equals(ATTRIBUTE))
+                      endAttribute = true;
+
+                    if(event.isStartElement()){
+                      currentTag = event.asStartElement().getName().toString();
+
+                      if(currentTag.equals(KEY)){
+                        boolean endKey = false;
+
+                        while(eventReader.hasNext() && !endKey){
+
+                          if(event.isEndElement() &&
+                              event.asEndElement().getName().toString().equals(KEY))
+                            endKey = true;
+
+                          if(event.isStartElement()){
+                            currentTag = event.asStartElement().getName().toString();
+
+                            if(currentTag.equals(Mode)){
+
+                                event = eventReader.nextEvent();
+
+                              if(event.isCharacters()){
+                                String character = event.asCharacters().getData().toString();
+                                current.setMode(character);
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+
                 //New Note
 								if(event.isStartElement() && 
 										event.asStartElement().getName().toString().equals(NOTE)){
@@ -69,7 +115,7 @@ public class StaXParser {
 
 										if(event.isEndElement() &&
 												event.asEndElement().getName().toString().equals(NOTE))
-										endNote = true;
+										  endNote = true;
 
 										if(event.isStartElement()){
 											currentTag = event.asStartElement().getName().toString();

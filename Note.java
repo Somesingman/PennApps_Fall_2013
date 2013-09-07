@@ -9,6 +9,7 @@ public class Note implements Comparable<Note>{
   private int position = 0;
   private int voice = 0;
   private String key = "";
+  private String mode = "";
 
   public String getStep() {
     return step;
@@ -57,6 +58,12 @@ public class Note implements Comparable<Note>{
   }
   public void setKey(int key){
     this.key = key;
+  }
+  public String getMode() {
+    return mode;
+  }
+  public void setMode(int mode){
+    this.mode = mode;
   }
 
   public String toString(){
