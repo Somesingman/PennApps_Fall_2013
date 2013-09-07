@@ -26,7 +26,7 @@ public class StaXParser {
 	static final String TIE = "tie";
 	static final String BACKUP =  "backup";
 	static final String DURATION = "duration";
-  int counter = 0;
+	int counter = 0;
 
 	@SuppressWarnings({ "unchecked", "null" })
 	public void readConfig(String configFile) {
@@ -56,8 +56,8 @@ public class StaXParser {
 
 							while(eventReader.hasNext()){
 								event = eventReader.nextEvent();
-							  
-                //New Note
+
+								//New Note
 								if(event.isStartElement() && 
 										event.asStartElement().getName().toString().equals(NOTE)){
 									Note current = new Note();
@@ -68,7 +68,7 @@ public class StaXParser {
 
 										if(event.isEndElement() &&
 												event.asEndElement().getName().toString().equals(NOTE))
-										endNote = true;
+											endNote = true;
 
 										if(event.isStartElement()){
 											currentTag = event.asStartElement().getName().toString();
@@ -84,44 +84,44 @@ public class StaXParser {
 											if(currentTag.equals(STEP) && current.getStep().length()!=1)
 												current.setStep(character);
 
-                      current.setPosition(counter);
+											current.setPosition(counter);
 
 											if(currentTag.equals(DURATION) && current.getDuration() == 0)
 												current.setDuration(Integer.parseInt(character));
 
-                      counter = counter + current.getDuration();
+											counter = counter + current.getDuration();
 
 											if(currentTag.equals(OCTAVE) && current.getOctave() == 0)
 												current.setOctave(Integer.parseInt(character));
 
-                      if(currentTag.equals(ALTER) && current.getAlter() == 0)
-                        current.setAlter(Integer.parseInt(character));
+											if(currentTag.equals(ALTER) && current.getAlter() == 0)
+												current.setAlter(Integer.parseInt(character));
 										}
-											//System.out.println(event.asCharacters().getData());
+										//System.out.println(event.asCharacters().getData());
 										event = eventReader.nextEvent();
-										
+
 									}
 									System.out.println(current);
 									System.out.println("********");
 									measure.add(current);
 								}
 
-								
 
-                if(currentTag.equals(BACKUP) && current.getPosition() == 0){
 
-                  if(event.isCharacters()){
-                    String character = event.asCharacters().getData().toString();
-                  }
-                  
-                  counter = counter - Integer.parseInt(character);
-                  current.setPosition(counter);
-							  }
+								if(currentTag.equals(BACKUP) && current.getPosition() == 0){
+
+									if(event.isCharacters()){
+										String character = event.asCharacters().getData().toString();
+									}
+
+									counter = counter - Integer.parseInt(character);
+									current.setPosition(counter);
+								}
+							}
+
 						}
-							
 					}
-				}
-				/*
+					/*
 				System.out.println(event);
 				System.out.println("Attribute: " + event.isAttribute());
 				System.out.println("Character: " + event.isCharacters());
@@ -129,12 +129,13 @@ public class StaXParser {
 				System.out.println("StartElement: " + event.isStartElement());
 				System.out.println("EndElement: " + event.isEndElement());
 				System.out.println("********************");
-				 */
+					 */
+				}
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+			} catch (XMLStreamException e) {
+				e.printStackTrace();
 			}
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (XMLStreamException e) {
-			e.printStackTrace();
 		}
-	}
-} 
+	} 
+}

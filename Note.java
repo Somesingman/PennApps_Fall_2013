@@ -17,7 +17,7 @@ public class Note implements Comparable<Note>{
   public int getAlter() {
     return alter;
   }
-  public void setAlter(String alter) {
+  public void setAlter(int alter) {
     this.alter = alter;
   }
   public int getOctave() {
@@ -46,7 +46,7 @@ public class Note implements Comparable<Note>{
   }
 
   public String toString(){
-	  return "Pitch: " + pitch + "\nChord: " + chord + "\nDuration: " + duration + 
+	  return "Chord: " + chord + "\nDuration: " + duration + 
 			  "\nStep: " + step + "\nOctave: " + octave + "\nPosition: " + position;
   }
 	@Override
@@ -56,9 +56,9 @@ public class Note implements Comparable<Note>{
 		else return 0;
 	}
 	public boolean equals(Note n){
-		if(this.pitch.equals(n.getPitch()) &&  this.step.equals(n.getStep())
-				&& this.alter.equals(n.getAlter()) && this.octave == n.getOctave()
-				&& this.chord == n.getChord() && this.duration == n.getDuration()){
+		if(this.step.equals(n.getStep())&& this.alter == n.getAlter() 
+				&& this.octave == n.getOctave() && this.chord == n.getChord() 
+				&& this.duration == n.getDuration()){
 			return true;
 		}
 		else return false;
