@@ -26,6 +26,7 @@ public class StaXParser {
 	static final String TIE = "tie";
 	static final String BACKUP =  "backup";
 	static final String DURATION = "duration";
+  static final String VOICE = "voice";
   int counter = 0;
 
 	@SuppressWarnings({ "unchecked", "null" })
@@ -96,6 +97,9 @@ public class StaXParser {
 
                       if(currentTag.equals(ALTER) && current.getAlter() == 0)
                         current.setAlter(Integer.parseInt(character));
+
+                      if(currentTag.equals(VOICE) && current.getVoice() == 0)
+                        current.setVoice(Integer.parseInt(character));
 										}
 											//System.out.println(event.asCharacters().getData());
 										event = eventReader.nextEvent();
@@ -113,7 +117,7 @@ public class StaXParser {
                   if(event.isCharacters()){
                     String character = event.asCharacters().getData().toString();
                   }
-                  
+
                   counter = counter - Integer.parseInt(character);
                   current.setPosition(counter);
 							  }
