@@ -76,6 +76,8 @@ public class StaXParser {
 												current.setDuration(Integer.parseInt(character));
 											if(currentTag.equals(OCTAVE) && current.getOctave() == 0)
 												current.setOctave(Integer.parseInt(character));
+                      if(currentTag.equals(ALTER) && current.getAlter() == 0)
+                        current.setAlter(Integer.parseInt(character));
 										}
 											//System.out.println(event.asCharacters().getData());
 										event = eventReader.nextEvent();

@@ -1,26 +1,20 @@
 
 public class Note implements Comparable<Note>{
 
-  private String pitch = "";
   private String step = "";
-  private String alter = "";
+  private int alter = 0;
   private int octave = 0;
   private boolean chord = false;
   private int duration = 0;
+  private int counter = 0;
 
-  public String getPitch() {
-    return pitch;
-  }
-  public void setPitch(String pitch) {
-    this.pitch = pitch;
-  }
   public String getStep() {
     return step;
   }
   public void setStep(String step) {
     this.step = step;
   }
-  public String getAlter() {
+  public int getAlter() {
     return alter;
   }
   public void setAlter(String alter) {
@@ -44,6 +38,13 @@ public class Note implements Comparable<Note>{
   public void setDuration(int duration) {
     this.duration = duration;
   }
+  public int getCounter() {
+    return counter;
+  }
+  public void setCounter(int counter){
+    this.counter = counter;
+  }
+
   public String toString(){
 	  return "Pitch: " + pitch + "\nChord: " + chord + "\nDuration: " + duration + 
 			  "\nStep: " + step + "\nOctave: " + octave;
