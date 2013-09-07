@@ -33,7 +33,7 @@ public class StaXParser {
 	static final String KEY = "key";
 	static final String ATTRIBUTES = "attributes";
 	static final String MODE = "mode";
-	static final String FIFTH = "fifth";
+	static final String FIFTHS = "fifths";
 
 
 	@SuppressWarnings({ "unchecked", "null" })
@@ -54,7 +54,7 @@ public class StaXParser {
 			// Read the XML document
 			Part part = null;
 			String mode = "";
-			int fifth = 0;
+			int fifths = 0;
 			while (eventReader.hasNext()) {
 				XMLEvent event = eventReader.nextEvent();
 				bw.write(event.toString());
@@ -79,56 +79,57 @@ public class StaXParser {
 										event.asStartElement().getName().toString().equals(ATTRIBUTES)){
 
 									while(eventReader.hasNext() && !endAttribute){
-										
+
 										if(event.isEndElement() &&
 												event.asEndElement().getName().toString().equals(ATTRIBUTES)){
 											endAttribute = true;
 											bw.write(event.toString());
-											System.out.println("HI");
 										}
 										else if(event.isStartElement()){
 											String currentTag = event.asStartElement().getName().toString();
-											System.out.println(event);
 											event = eventReader.nextEvent();
 											if(currentTag.equals(KEY)){
-												
+
 												boolean endKey = false;
 
 												while(eventReader.hasNext() && !endKey){
-													
-													System.out.println(event);
+
 													if(event.isEndElement() &&
-															event.asEndElement().getName().toString().equals(KEY))
+															event.asEndElement().getName().toString().equals(KEY)){
 														endKey = true;
-
+														bw.write(event.toString());
+													}
 													if(event.isStartElement()){
-														System.out.println(event);
+
+														System.out.println("HELLO");
 														currentTag = event.asStartElement().getName().toString();
-														while(eventReader.hasNext() && !endKey){
+
+														if(event.isStartElement() &&
+																event.asStartElement().getName().toString().equals(FIFTHS)){
+
 															event = eventReader.nextEvent();
-															if(currentTag.equals(MODE)){
 
-																event = eventReader.nextEvent();
-
-																if(event.isCharacters()){
-																	String character = event.asCharacters().getData().toString();
-																	mode = character;
-																}
+															if(event.isCharacters()){
+																String character = event.asCharacters().getData().toString();
+																int num = Integer.parseInt(character);
+																fifths = num;
 															}
+														}
 
-															if(currentTag.equals(FIFTH)){
+														else if(event.isStartElement() && 
+																event.asStartElement().getName().toString().equals(MODE)){
 
-																event = eventReader.nextEvent();
+															event = eventReader.nextEvent();
 
-																if(event.isCharacters()){
-																	String character = event.asCharacters().getData().toString();
-																	fifth = Integer.parseInt(character);
-																}
+															if(event.isCharacters()){
+																String character = event.asCharacters().getData().toString();
+																mode = character;
 															}
-															
 														}
 
 													}
+													if(eventReader.hasNext() && !endKey)
+														event = eventReader.nextEvent();
 												}
 											}
 										}
@@ -148,7 +149,7 @@ public class StaXParser {
 									//System.out.println("Goes in here and mode = " + mode + "\n fifth = " + fifth);
 									Note current = new Note();
 									current.setMode(mode);
-									current.setFifth(fifth);
+									current.setFifth(fifths);
 									boolean endNote = false;
 									String currentTag = "";
 
