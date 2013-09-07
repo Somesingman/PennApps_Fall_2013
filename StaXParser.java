@@ -26,6 +26,7 @@ public class StaXParser {
   static final String TIE = "tie";
   static final String BACKUP =  "backup";
   static final String DURATION = "duration";
+  static final String MODE = "mode";
 
   @SuppressWarnings({ "unchecked", "null" })
   public List<Part> readConfig(String configFile) {
