@@ -24,4 +24,21 @@ public class TestDominant {
 		assertTrue(converter.isDominant(notes,key));
 	}
 
+	@Test
+	public void testDominant2() {
+		Converter converter = new Converter();
+		String key = "A";
+		ArrayList<Note> notes = new ArrayList<Note>();
+		Note g = new Note();
+		g.setStep("E");
+		Note b = new Note();
+		b.setStep("G#");
+		Note d = new Note();
+		d.setStep("E");
+		notes.add(g);
+		notes.add(b);
+		notes.add(d);
+		assertTrue(converter.isDominant(notes,key));
+	}
+
 }

@@ -137,22 +137,20 @@ public class Converter {
 	public boolean isDominant(ArrayList<Note> noteList, String key) {
 		int tonic = noteValues[notes.indexOf(key)];
 		int dominant = (tonic + 7) % 12;
-		List<Integer> tonicMembers = Arrays.asList(tonic,(tonic+4)%12,(tonic+7)%12);
-		List<Integer> dominantMembers = Arrays.asList(dominant,(dominant+4)%12,(tonic+7)%12);
-		int tonicScore = 0;
+		//List<Integer> tonicMembers = Arrays.asList(tonic,(tonic+4)%12,(tonic+7)%12);
+		List<Integer> dominantMembers = Arrays.asList(dominant,(dominant+4)%12,(dominant+7)%12,(dominant+10)%12);
+		int otherScore = 0;
 		int dominantScore = 0;
 		//Iterate through notes list twice: one to calculate tonicScore, one to calculate dominant
 		//If dominatnScore > tonicScore, return true, else false
 		for (Note n : noteList) {
 			int value = noteValues[notes.indexOf(n.getStep())];
-			if (tonicMembers.contains(value)) {
-				tonicScore++;
-			}
-			else if (dominantMembers.contains(value)) {
+			if (dominantMembers.contains(value)) {
 				dominantScore++;
 			}
+			else { otherScore++; }
 		}
-		if (dominantScore > tonicScore) {
+		if (dominantScore > otherScore) {
 			return true;
 		}
 		else { return false; }
