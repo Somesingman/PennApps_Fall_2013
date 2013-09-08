@@ -178,35 +178,42 @@ public class StaXParser {
 
 											
 											String character = event.asCharacters().getData().toString();
-											boolean pitch = false;
-
-											//System.out.println(currentTag + " : " + character);
-											if(currentTag.equals(STEP) && current.getStep().length()!=1){
-												current.setStep(character);
-												//putting hash but here is where you change it
-												pitch = true;
-											}
-
-											if(currentTag.equals(ALTER) && current.getAlter() == 0){
-												current.setAlter(Integer.parseInt(character));
-												//where you change alter
-
-											}
-
-											if(currentTag.equals(OCTAVE) && current.getOctave() == 0){
-												current.setOctave(Integer.parseInt(character));
-												//change octave code
-
-											}
-											
-											
-											
-											if(pitch){
-												Note newNote = c.convert(current, key, "toMin", measure);
-												bw.write(newNote.getStep());
-												bw.write(newNote.getAlter());
-												bw.write(newNote.getOctave());
-											}
+											int temp_count = 0;													
+											String newStep = "";
+											int newAlter = 0;
+											int newOctave = 0;
+											Note newNote = null;
+												while(event.isStartElement() && event.asEndElement().getName().toString().equals(PITCH)
+														&& temp_count <= 3){
+													boolean endPitch = false;
+													
+												
+		
+													//System.out.println(currentTag + " : " + character);
+													if(currentTag.equals(STEP) && current.getStep().length()!=1){
+														current.setStep(character);
+														if(temp_count == 1)
+															newStep = newNote.getStep();
+															bw.write(newStep);
+													}
+		
+													if(currentTag.equals(ALTER) && current.getAlter() == 0){
+														current.setAlter(Integer.parseInt(character));
+														if(temp_count == 2)
+															newAlter = newNote.getAlter();
+															bw.write(newAlter);
+													}
+		
+													if(currentTag.equals(OCTAVE) && current.getOctave() == 0){
+														current.setOctave(Integer.parseInt(character));
+														if(temp_count == 3)
+															newOctave = newNote.getOctave();
+															bw.write(newOctave);
+													}
+													
+													newNote = c.convert(current, key, "toMin", measure);
+													
+												}
 
 											if(currentTag.equals(DURATION) && current.getDuration() == 0){
 												current.setPosition(counter);
