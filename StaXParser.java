@@ -56,7 +56,7 @@ public class StaXParser {
 
                 if (event.isStartElement() && 
                         event.asStartElement().getName().toString().equals(PART)){
-
+                		bw.write(event.toString());
                     while(eventReader.hasNext()){
                         event = eventReader.nextEvent();
                         //System.out.println("GOES");
