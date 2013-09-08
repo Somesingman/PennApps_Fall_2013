@@ -5,15 +5,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.Attribute;
-import javax.xml.stream.events.EndElement;
-import javax.xml.stream.events.StartElement;
 import javax.xml.stream.events.XMLEvent;
 
 
@@ -35,10 +29,7 @@ public class StaXParser {
 	static final String MODE = "mode";
 	static final String FIFTHS = "fifths";
 
-
-	@SuppressWarnings({ "unchecked", "null" })
 	public void readConfig(String configFile) {
-		List<Part> parts = new ArrayList<Part>();
 		try {
 			// First create a new XMLInputFactory
 			XMLInputFactory inputFactory = XMLInputFactory.newInstance();
@@ -52,12 +43,10 @@ public class StaXParser {
 			BufferedWriter bw = new BufferedWriter(fw);
 
 			// Read the XML document
-			Part part = null;
 			String mode = "";
 			int fifths = 0;
 			while (eventReader.hasNext()) {
 				XMLEvent event = eventReader.nextEvent();
-				bw.write(event.toString());
 				if (event.isStartElement() && 
 						event.asStartElement().getName().toString().equals(PART)){
 
@@ -68,6 +57,7 @@ public class StaXParser {
 						if(event.isStartElement() && 
 								event.asStartElement().getName().toString().equals(MEASURE)){
 							//System.out.println("GOES INTO MEASURE");
+							bw.write(event.toString());
 							ArrayList<Note> measure = new ArrayList<Note>();
 							int counter = 0;
 							boolean endAttribute = false;
@@ -77,38 +67,34 @@ public class StaXParser {
 
 								if(event.isStartElement() && 
 										event.asStartElement().getName().toString().equals(ATTRIBUTES)){
-
 									while(eventReader.hasNext() && !endAttribute){
-
 										if(event.isEndElement() &&
 												event.asEndElement().getName().toString().equals(ATTRIBUTES)){
-											endAttribute = true;
 											bw.write(event.toString());
+											endAttribute = true;
 										}
 										else if(event.isStartElement()){
 											String currentTag = event.asStartElement().getName().toString();
+											bw.write(event.toString());
 											event = eventReader.nextEvent();
 											if(currentTag.equals(KEY)){
 
 												boolean endKey = false;
 
 												while(eventReader.hasNext() && !endKey){
-
 													if(event.isEndElement() &&
 															event.asEndElement().getName().toString().equals(KEY)){
 														endKey = true;
-														bw.write(event.toString());
 													}
-													if(event.isStartElement()){
-
-														System.out.println("HELLO");
+													else if(event.isStartElement()){
 														currentTag = event.asStartElement().getName().toString();
-
+														
+														bw.write(event.toString());
 														if(event.isStartElement() &&
 																event.asStartElement().getName().toString().equals(FIFTHS)){
 
 															event = eventReader.nextEvent();
-
+															bw.write(event.toString());
 															if(event.isCharacters()){
 																String character = event.asCharacters().getData().toString();
 																int num = Integer.parseInt(character);
@@ -120,7 +106,7 @@ public class StaXParser {
 																event.asStartElement().getName().toString().equals(MODE)){
 
 															event = eventReader.nextEvent();
-
+															bw.write(event.toString());
 															if(event.isCharacters()){
 																String character = event.asCharacters().getData().toString();
 																mode = character;
@@ -128,20 +114,25 @@ public class StaXParser {
 														}
 
 													}
+													else
+														bw.write(event.toString());
 													if(eventReader.hasNext() && !endKey)
 														event = eventReader.nextEvent();
 												}
 											}
 										}
-										else
+										else{
 											bw.write(event.toString());
-										if(eventReader.hasNext() && !endAttribute)
-											event = eventReader.nextEvent();
+											if(eventReader.hasNext() && !endAttribute)
+												event = eventReader.nextEvent();
+										}
 									}
 								}
 								else if(event.isEndElement() &&
-										event.asEndElement().getName().toString().equals(MEASURE))
+										event.asEndElement().getName().toString().equals(MEASURE)){
+									bw.write(event.toString());
 									endMeasure = true;
+								}
 
 								//New Note
 								else if(event.isStartElement() && 
@@ -161,17 +152,21 @@ public class StaXParser {
 
 										if(event.isStartElement()){
 											currentTag = event.asStartElement().getName().toString();
-
+											
+											bw.write(event.toString());
 											if(currentTag.equals(CHORD))
 												current.setChord(true);
 										}
 
 										if(event.isCharacters()){
 											String character = event.asCharacters().getData().toString();
-
+											
 											//System.out.println(currentTag + " : " + character);
-											if(currentTag.equals(STEP) && current.getStep().length()!=1)
+											if(currentTag.equals(STEP) && current.getStep().length()!=1){
 												current.setStep(character);
+												//putting hash but here is where you change it
+												bw.write("#");
+											}
 
 											if(currentTag.equals(DURATION) && current.getDuration() == 0){
 												current.setPosition(counter);
@@ -189,7 +184,6 @@ public class StaXParser {
 										}
 										//System.out.println(event.asCharacters().getData());
 										event = eventReader.nextEvent();
-
 									}
 									System.out.println(current);
 									System.out.println("********");
@@ -208,9 +202,6 @@ public class StaXParser {
 											counter = counter - num;
 										}
 									}
-
-
-
 								}
 								else
 									bw.write(event.toString());
@@ -221,17 +212,9 @@ public class StaXParser {
 							bw.write(event.toString());
 					}
 				}
-				/*
-				System.out.println(event);
-				System.out.println("Attribute: " + event.isAttribute());
-				System.out.println("Character: " + event.isCharacters());
-				System.out.println("End Document: " + event.isEndDocument());
-				System.out.println("StartElement: " + event.isStartElement());
-				System.out.println("EndElement: " + event.isEndElement());
-				System.out.println("********************");
-				 */
+				else
+					bw.write(event.toString());
 			}
-
 			bw.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
