@@ -155,7 +155,7 @@
     <type></type>
     <staff></staff>
    </note><note default-y='21' default-x='106' color='#000000'><grace slash='yes'></grace>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -166,7 +166,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='106' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -175,7 +175,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-57' default-x='127' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='127' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -188,7 +188,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='127' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -198,7 +198,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='-52' default-x='167' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='167' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -212,7 +212,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='167' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -222,7 +222,7 @@
     <staff></staff>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='-52' default-x='197' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='197' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>42</duration>
@@ -240,7 +240,7 @@
     <beam number='2'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='start' bracket='yes'></tuplet>
     </notations>
-   </note><note default-y='-52' default-x='215' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='215' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>43</duration>
@@ -255,7 +255,7 @@
     <staff></staff>
     <beam number='1'></beam>
     <beam number='2'></beam>
-   </note><note default-y='-52' default-x='233' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='233' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>43</duration>
@@ -272,7 +272,7 @@
     <beam number='2'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='stop' bracket='yes'></tuplet>
     </notations>
-   </note><note default-y='12' default-x='250' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='250' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -282,7 +282,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='277' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='277' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -293,7 +293,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-y='-9' default-x='300' color='#000000'><grace slash='yes'></grace>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -303,7 +303,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='12' default-x='327' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='327' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -314,7 +314,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='354' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='354' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -337,7 +337,7 @@
   <measure width='192' number='2'>
    <attributes></attributes>
    <note default-y='-9' default-x='10' color='#000000'><grace slash='yes'></grace>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -347,7 +347,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-x='28' color='#000000'><pitch><step></step>
+   </note><note default-x='28' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>1024</duration>
@@ -357,7 +357,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='28' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='28' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -366,7 +366,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='64' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='64' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -377,7 +377,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='64' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -385,7 +385,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-52' default-x='93' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='93' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -397,7 +397,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-55' default-x='120' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='120' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -406,7 +406,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='156' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='156' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -416,7 +416,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='156' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -434,7 +434,7 @@
     <voice>1</voice>
     <type></type>
     <staff></staff>
-   </note><note default-x='41' color='#000000'><pitch><step></step>
+   </note><note default-x='41' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>42</duration>
@@ -451,7 +451,7 @@
     <beam number='2'></beam>
     <notations><tuplet placement='above' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-x='61' color='#000000'><pitch><step></step>
+   </note><note default-x='61' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>43</duration>
@@ -466,7 +466,7 @@
     <staff></staff>
     <beam number='1'></beam>
     <beam number='2'></beam>
-   </note><note default-x='79' color='#000000'><pitch><step></step>
+   </note><note default-x='79' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>43</duration>
@@ -483,7 +483,7 @@
     <beam number='2'></beam>
     <notations><tuplet placement='above' default-y='-20' number='1' type='stop' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='2' default-x='105' color='#000000'><pitch><step></step>
+   </note><note default-y='2' default-x='105' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -494,7 +494,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='2' default-x='134' color='#000000'><pitch><step></step>
+   </note><note default-y='2' default-x='134' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -506,7 +506,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='14' default-x='160' color='#000000'><pitch><step></step>
+   </note><note default-y='14' default-x='160' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -516,7 +516,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='14' default-x='186' color='#000000'><pitch><step></step>
+   </note><note default-y='14' default-x='186' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -526,7 +526,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='14' default-x='213' color='#000000'><pitch><step></step>
+   </note><note default-y='14' default-x='213' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -536,7 +536,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='14' default-x='239' color='#000000'><pitch><step></step>
+   </note><note default-y='14' default-x='239' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -551,7 +551,7 @@
     </notations>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-67' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-67' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -561,7 +561,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -569,7 +569,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -578,7 +578,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-49' default-x='105' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='105' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -589,7 +589,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-49' default-x='134' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='134' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -599,7 +599,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='160' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='160' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -609,7 +609,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='213' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='213' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -620,7 +620,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='213' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -628,7 +628,7 @@
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-52' default-x='239' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='239' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -642,7 +642,7 @@
   <!--============== Part: P1, Measure: 4 ==============-->
   <measure width='196' number='4'>
    <attributes></attributes>
-   <note default-y='-15' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-15' default-x='15' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -674,7 +674,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-10' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-10' default-x='15' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -683,7 +683,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='68' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='68' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -694,14 +694,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='68' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-52' default-x='97' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='97' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -713,7 +713,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='123' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='123' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -723,7 +723,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-55' default-x='160' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='160' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -733,7 +733,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='160' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -759,7 +759,7 @@
     <staff-details print-object='yes' number='1'></staff-details>
     <staff-details print-object='yes' number='2'></staff-details>
    </attributes>
-   <note default-y='-20' default-x='68' color='#000000'><pitch><step></step>
+   <note default-y='-20' default-x='68' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -769,7 +769,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-20' default-x='98' color='#000000'><pitch><step></step>
+   </note><note default-y='-20' default-x='98' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -785,7 +785,7 @@
     <voice>1</voice>
     <type></type>
     <staff></staff>
-   </note><note default-x='157' color='#000000'><pitch><step></step>
+   </note><note default-x='157' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>42</duration>
@@ -802,7 +802,7 @@
     <beam number='2'></beam>
     <notations><tuplet placement='above' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-x='177' color='#000000'><pitch><step></step>
+   </note><note default-x='177' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>43</duration>
@@ -817,7 +817,7 @@
     <staff></staff>
     <beam number='1'></beam>
     <beam number='2'></beam>
-   </note><note default-x='198' color='#000000'><pitch><step></step>
+   </note><note default-x='198' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>43</duration>
@@ -834,7 +834,7 @@
     <beam number='2'></beam>
     <notations><tuplet placement='above' default-y='-20' number='1' type='stop' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-54' default-x='218' color='#000000'><pitch><step></step>
+   </note><note default-y='-54' default-x='218' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -844,7 +844,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-54' default-x='247' color='#000000'><pitch><step></step>
+   </note><note default-y='-54' default-x='247' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -854,7 +854,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-54' default-x='277' color='#000000'><pitch><step></step>
+   </note><note default-y='-54' default-x='277' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -864,7 +864,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-54' default-x='307' color='#000000'><pitch><step></step>
+   </note><note default-y='-54' default-x='307' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -878,7 +878,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='307' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -890,7 +890,7 @@
     </notations>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='22' default-x='68' color='#000000'><pitch><step></step>
+   <note default-y='22' default-x='68' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -900,7 +900,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='68' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -908,7 +908,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='68' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -921,7 +921,7 @@
     <voice>2</voice>
     <type></type>
     <staff></staff>
-   </note><note default-y='-55' default-x='218' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='218' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -931,7 +931,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='218' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -941,7 +941,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='218' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -953,7 +953,7 @@
   <!--============== Part: P1, Measure: 6 ==============-->
   <measure width='257' number='6'>
    <attributes></attributes>
-   <note default-y='-35' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-35' default-x='15' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>384</duration>
@@ -967,7 +967,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -978,7 +978,7 @@
     <staff></staff>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='-45' default-x='85' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='85' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -988,14 +988,14 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='85' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='17' default-x='125' color='#000000'><pitch><step></step>
+   </note><note default-y='17' default-x='125' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1006,7 +1006,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='125' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1015,14 +1015,14 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='125' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='17' default-x='165' color='#000000'><pitch><step></step>
+   </note><note default-y='17' default-x='165' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1033,7 +1033,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='165' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1041,7 +1041,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='165' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1055,7 +1055,7 @@
     <voice>1</voice>
     <type></type>
     <staff></staff>
-   </note><note default-y='10' default-x='224' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='224' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1065,7 +1065,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='224' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1073,7 +1073,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='224' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1082,7 +1082,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1091,7 +1091,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='56' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='56' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1103,7 +1103,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='56' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1111,7 +1111,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-52' default-x='85' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='85' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1123,7 +1123,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-55' default-x='125' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='125' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1132,7 +1132,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='195' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='195' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1142,7 +1142,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='195' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1154,7 +1154,7 @@
   <!--============== Part: P1, Measure: 7 ==============-->
   <measure width='255' number='7'>
    <attributes></attributes>
-   <note default-y='2' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='2' default-x='15' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1165,14 +1165,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='2' default-x='44' color='#000000'><pitch><step></step>
+   </note><note default-y='2' default-x='44' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1183,14 +1183,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='44' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='2' default-x='74' color='#000000'><pitch><step></step>
+   </note><note default-y='2' default-x='74' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1201,14 +1201,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='74' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='2' default-x='104' color='#000000'><pitch><step></step>
+   </note><note default-y='2' default-x='104' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1219,7 +1219,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='104' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1229,7 +1229,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='12' default-x='136' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='136' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1242,7 +1242,7 @@
     <beam number='1'></beam>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='12' default-x='165' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='165' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1254,7 +1254,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='195' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='195' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1264,7 +1264,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='225' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='225' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1276,7 +1276,7 @@
     <beam number='1'></beam>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-67' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-67' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1286,7 +1286,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1294,7 +1294,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1303,7 +1303,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-49' default-x='74' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='74' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1314,7 +1314,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-49' default-x='104' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='104' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1324,7 +1324,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='136' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='136' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1334,7 +1334,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-50' default-x='195' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='195' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1344,7 +1344,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='195' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1356,7 +1356,7 @@
   <!--============== Part: P1, Measure: 8 ==============-->
   <measure width='181' number='8'>
    <attributes></attributes>
-   <note default-x='17' color='#000000'><pitch><step></step>
+   <note default-x='17' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>1024</duration>
@@ -1365,7 +1365,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='17' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>1024</duration>
@@ -1374,7 +1374,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-15' default-x='17' color='#000000'><pitch><step></step>
+   <note default-y='-15' default-x='17' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1385,7 +1385,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-55' default-x='58' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='58' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1397,14 +1397,14 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='58' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='5' default-x='99' color='#000000'><pitch><step></step>
+   </note><note default-y='5' default-x='99' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1414,7 +1414,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-55' default-x='140' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='140' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1425,7 +1425,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='140' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1457,7 +1457,7 @@
     <voice>1</voice>
     <type></type>
     <staff></staff>
-   </note><note default-y='-10' default-x='103' color='#000000'><pitch><step></step>
+   </note><note default-y='-10' default-x='103' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -1473,7 +1473,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='above' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-10' default-x='127' color='#000000'><pitch><step></step>
+   </note><note default-y='-10' default-x='127' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -1487,7 +1487,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-10' default-x='147' color='#000000'><pitch><step></step>
+   </note><note default-y='-10' default-x='147' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>86</duration>
@@ -1503,7 +1503,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='above' default-y='-20' number='1' type='stop' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='12' default-x='176' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='176' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1521,7 +1521,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='above' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='12' default-x='196' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='196' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -1535,7 +1535,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='217' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='217' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>86</duration>
@@ -1551,7 +1551,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='above' default-y='-20' number='1' type='stop' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-62' default-x='245' color='#000000'><pitch><step></step>
+   </note><note default-y='-62' default-x='245' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1569,7 +1569,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-62' default-x='265' color='#000000'><pitch><step></step>
+   </note><note default-y='-62' default-x='265' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>28</duration>
@@ -1592,7 +1592,7 @@
       </tuplet-normal>
      </tuplet>
     </notations>
-   </note><note default-y='-62' default-x='281' color='#000000'><pitch><step></step>
+   </note><note default-y='-62' default-x='281' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1608,7 +1608,7 @@
     <staff></staff>
     <beam number='1'></beam>
     <beam number='2'></beam>
-   </note><note default-y='-62' default-x='297' color='#000000'><pitch><step></step>
+   </note><note default-y='-62' default-x='297' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>29</duration>
@@ -1631,7 +1631,7 @@
       </tuplet-normal>
      </tuplet>
     </notations>
-   </note><note default-y='-62' default-x='313' color='#000000'><pitch><step></step>
+   </note><note default-y='-62' default-x='313' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>22</duration>
@@ -1647,7 +1647,7 @@
     <beam number='1'></beam>
     <beam number='2'></beam>
     <beam number='3'></beam>
-   </note><note default-y='-62' default-x='330' color='#000000'><pitch><step></step>
+   </note><note default-y='-62' default-x='330' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1664,7 +1664,7 @@
     <beam number='1'></beam>
     <beam number='2'></beam>
     <beam number='3'></beam>
-   </note><note default-y='-62' default-x='346' color='#000000'><pitch><step></step>
+   </note><note default-y='-62' default-x='346' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>21</duration>
@@ -1680,7 +1680,7 @@
     <beam number='1'></beam>
     <beam number='2'></beam>
     <beam number='3'></beam>
-   </note><note default-y='-62' default-x='362' color='#000000'><pitch><step></step>
+   </note><note default-y='-62' default-x='362' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>22</duration>
@@ -1700,7 +1700,7 @@
     </notations>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='20' default-x='69' color='#000000'><pitch><step></step>
+   <note default-y='20' default-x='69' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1711,7 +1711,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='69' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1719,7 +1719,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='69' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1734,7 +1734,7 @@
     <voice>2</voice>
     <type></type>
     <staff></staff>
-   </note><note default-y='-55' default-x='176' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='176' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -1745,7 +1745,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='176' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1755,7 +1755,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='176' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -1767,7 +1767,7 @@
   <!--============== Part: P1, Measure: 10 ==============-->
   <measure width='225' number='10'>
    <attributes></attributes>
-   <note default-y='12' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='12' default-x='15' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1777,7 +1777,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='39' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='39' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1787,7 +1787,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='63' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='63' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1797,7 +1797,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='96' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='96' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1809,7 +1809,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-67' default-x='122' color='#000000'><pitch><step></step>
+   </note><note default-y='-67' default-x='122' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1820,7 +1820,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-67' default-x='150' color='#000000'><pitch><step></step>
+   </note><note default-y='-67' default-x='150' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1832,7 +1832,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-67' default-x='175' color='#000000'><pitch><step></step>
+   </note><note default-y='-67' default-x='175' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1843,7 +1843,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-67' default-x='200' color='#000000'><pitch><step></step>
+   </note><note default-y='-67' default-x='200' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1855,7 +1855,7 @@
     <beam number='1'></beam>
    </note><duration>1024</duration>
    </backup>
-   <note default-x='15' color='#000000'><pitch><step></step>
+   <note default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1864,7 +1864,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='63' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='63' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1875,14 +1875,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='63' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-52' default-x='96' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='96' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1894,7 +1894,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-55' default-x='122' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='122' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1903,7 +1903,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='175' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='175' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1915,7 +1915,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='175' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -1927,7 +1927,7 @@
   <!--============== Part: P1, Measure: 11 ==============-->
   <measure width='231' number='11'>
    <attributes></attributes>
-   <note default-y='12' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='12' default-x='15' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1938,7 +1938,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='39' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='39' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1948,7 +1948,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='64' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='64' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -1958,30 +1958,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='12' default-x='99' color='#000000'><pitch><step></step>
-     <alter></alter>
-     <octave></octave>
-    </pitch>
-    <duration>128</duration>
-    <instrument id='P1-I1'></instrument>
-    <voice>1</voice>
-    <type></type>
-    <accidental></accidental>
-    <stem></stem>
-    <staff></staff>
-    <beam number='1'></beam>
-   </note><note default-y='19' default-x='129' color='#000000'><pitch><step></step>
-     <octave></octave>
-    </pitch>
-    <duration>128</duration>
-    <instrument id='P1-I1'></instrument>
-    <voice>1</voice>
-    <type></type>
-    <accidental></accidental>
-    <stem></stem>
-    <staff></staff>
-    <beam number='1'></beam>
-   </note><note default-y='19' default-x='157' color='#000000'><pitch><step></step>
+   </note><note default-y='12' default-x='99' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -1993,7 +1970,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='19' default-x='183' color='#000000'><pitch><step></step>
+   </note><note default-y='19' default-x='129' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2004,7 +1981,30 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='19' default-x='207' color='#000000'><pitch><step></step>
+   </note><note default-y='19' default-x='157' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
+     <alter></alter>
+     <octave></octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id='P1-I1'></instrument>
+    <voice>1</voice>
+    <type></type>
+    <accidental></accidental>
+    <stem></stem>
+    <staff></staff>
+    <beam number='1'></beam>
+   </note><note default-y='19' default-x='183' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
+     <octave></octave>
+    </pitch>
+    <duration>128</duration>
+    <instrument id='P1-I1'></instrument>
+    <voice>1</voice>
+    <type></type>
+    <accidental></accidental>
+    <stem></stem>
+    <staff></staff>
+    <beam number='1'></beam>
+   </note><note default-y='19' default-x='207' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2017,7 +2017,7 @@
     <beam number='1'></beam>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2026,7 +2026,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-49' default-x='64' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='64' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2038,7 +2038,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='64' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2046,7 +2046,7 @@
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-49' default-x='99' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='99' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2058,7 +2058,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='129' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='129' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2068,7 +2068,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-50' default-x='183' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='183' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2078,7 +2078,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='183' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2090,7 +2090,7 @@
   <!--============== Part: P1, Measure: 12 ==============-->
   <measure width='200' number='12'>
    <attributes></attributes>
-   <note default-y='10' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='10' default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2105,7 +2105,7 @@
     <voice>1</voice>
     <type></type>
     <staff></staff>
-   </note><note default-y='-50' default-x='73' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='73' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2116,7 +2116,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='99' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='99' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2132,7 +2132,7 @@
     <voice>1</voice>
     <type></type>
     <staff></staff>
-   </note><note default-y='-32' default-x='157' color='#000000'><pitch><step></step>
+   </note><note default-y='-32' default-x='157' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>64</duration>
@@ -2143,7 +2143,7 @@
     <staff></staff>
     <beam number='1'></beam>
     <beam number='2'></beam>
-   </note><note default-y='-32' default-x='177' color='#000000'><pitch><step></step>
+   </note><note default-y='-32' default-x='177' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>64</duration>
@@ -2156,7 +2156,7 @@
     <beam number='2'></beam>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-10' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-10' default-x='15' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2165,7 +2165,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-50' default-x='47' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='47' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2175,14 +2175,14 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='47' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='5' default-x='99' color='#000000'><pitch><step></step>
+   </note><note default-y='5' default-x='99' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2192,7 +2192,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-55' default-x='133' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='133' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2203,7 +2203,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='133' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2229,7 +2229,7 @@
     <staff-details print-object='yes' number='1'></staff-details>
     <staff-details print-object='yes' number='2'></staff-details>
    </attributes>
-   <note default-y='-19' default-x='69' color='#000000'><pitch><step></step>
+   <note default-y='-19' default-x='69' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -2246,7 +2246,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-19' default-x='94' color='#000000'><pitch><step></step>
+   </note><note default-y='-19' default-x='94' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2261,7 +2261,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-19' default-x='119' color='#000000'><pitch><step></step>
+   </note><note default-y='-19' default-x='119' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>86</duration>
@@ -2277,7 +2277,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='stop' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-42' default-x='144' color='#000000'><pitch><step></step>
+   </note><note default-y='-42' default-x='144' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2294,7 +2294,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-42' default-x='169' color='#000000'><pitch><step></step>
+   </note><note default-y='-42' default-x='169' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -2308,7 +2308,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-42' default-x='194' color='#000000'><pitch><step></step>
+   </note><note default-y='-42' default-x='194' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>86</duration>
@@ -2324,7 +2324,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='stop' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-29' default-x='219' color='#000000'><pitch><step></step>
+   </note><note default-y='-29' default-x='219' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -2340,7 +2340,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-29' default-x='244' color='#000000'><pitch><step></step>
+   </note><note default-y='-29' default-x='244' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -2354,7 +2354,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-29' default-x='269' color='#000000'><pitch><step></step>
+   </note><note default-y='-29' default-x='269' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>86</duration>
@@ -2370,7 +2370,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='stop' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-47' default-x='294' color='#000000'><pitch><step></step>
+   </note><note default-y='-47' default-x='294' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -2386,7 +2386,7 @@
     <beam number='1'></beam>
     <notations><tuplet placement='below' default-y='-20' number='1' type='start' bracket='no'></tuplet>
     </notations>
-   </note><note default-y='-47' default-x='319' color='#000000'><pitch><step></step>
+   </note><note default-y='-47' default-x='319' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -2400,7 +2400,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-47' default-x='344' color='#000000'><pitch><step></step>
+   </note><note default-y='-47' default-x='344' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>28</duration>
@@ -2423,7 +2423,7 @@
       </tuplet-normal>
      </tuplet>
     </notations>
-   </note><note default-y='-47' default-x='364' color='#000000'><pitch><step></step>
+   </note><note default-y='-47' default-x='364' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>28</duration>
@@ -2438,7 +2438,7 @@
     <staff></staff>
     <beam number='1'></beam>
     <beam number='2'></beam>
-   </note><note default-y='-47' default-x='390' color='#000000'><pitch><step></step>
+   </note><note default-y='-47' default-x='390' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>30</duration>
@@ -2471,7 +2471,7 @@
     </notations>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='22' default-x='69' color='#000000'><pitch><step></step>
+   <note default-y='22' default-x='69' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -2481,7 +2481,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='69' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2490,14 +2490,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='69' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='22' default-x='219' color='#000000'><pitch><step></step>
+   </note><note default-y='22' default-x='219' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>384</duration>
@@ -2508,7 +2508,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='219' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2519,7 +2519,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='219' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2527,7 +2527,7 @@
     <type></type>
     <dot></dot>
     <staff></staff>
-   </note><note default-y='-20' default-x='332' color='#000000'><pitch><step></step>
+   </note><note default-y='-20' default-x='332' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2540,7 +2540,7 @@
   <!--============== Part: P1, Measure: 14 ==============-->
   <measure width='203' number='14'>
    <attributes></attributes>
-   <note default-y='10' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='10' default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>768</duration>
@@ -2553,7 +2553,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='4' default-x='142' color='#000000'><pitch><step></step>
+   </note><note default-y='4' default-x='142' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2566,7 +2566,7 @@
     <beam number='1'></beam>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='4' default-x='173' color='#000000'><pitch><step></step>
+   </note><note default-y='4' default-x='173' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2578,7 +2578,7 @@
     <beam number='1'></beam>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-20' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-20' default-x='15' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2587,7 +2587,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='57' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='57' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2597,7 +2597,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='57' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2605,7 +2605,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-55' default-x='100' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='100' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2614,7 +2614,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='142' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='142' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2624,7 +2624,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='142' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2635,7 +2635,7 @@
   <!--============== Part: P1, Measure: 15 ==============-->
   <measure width='241' number='15'>
    <attributes></attributes>
-   <note default-y='9' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='9' default-x='15' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2645,7 +2645,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='9' default-x='45' color='#000000'><pitch><step></step>
+   </note><note default-y='9' default-x='45' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2655,7 +2655,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='9' default-x='76' color='#000000'><pitch><step></step>
+   </note><note default-y='9' default-x='76' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2665,7 +2665,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='9' default-x='107' color='#000000'><pitch><step></step>
+   </note><note default-y='9' default-x='107' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2675,7 +2675,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='5' default-x='138' color='#000000'><pitch><step></step>
+   </note><note default-y='5' default-x='138' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2684,7 +2684,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='180' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='180' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2694,7 +2694,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-52' default-x='211' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='211' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2706,7 +2706,7 @@
     <beam number='1'></beam>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2715,7 +2715,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='76' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='76' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2725,7 +2725,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='76' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2733,7 +2733,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-55' default-x='138' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='138' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2742,7 +2742,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='180' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='180' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2752,7 +2752,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='180' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2764,7 +2764,7 @@
   <!--============== Part: P1, Measure: 16 ==============-->
   <measure width='185' number='16'>
    <attributes></attributes>
-   <note default-y='-45' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-45' default-x='15' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2787,7 +2787,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2796,7 +2796,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='57' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='57' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2806,7 +2806,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='57' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2815,7 +2815,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-55' default-x='100' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='100' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2824,7 +2824,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='142' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='142' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2834,7 +2834,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='142' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2868,7 +2868,7 @@
     <voice>1</voice>
     <type></type>
     <staff></staff>
-   </note><note default-y='-20' default-x='121' color='#000000'><pitch><step></step>
+   </note><note default-y='-20' default-x='121' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -2880,7 +2880,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-20' default-x='159' color='#000000'><pitch><step></step>
+   </note><note default-y='-20' default-x='159' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2890,7 +2890,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='32' default-x='197' color='#000000'><pitch><step></step>
+   </note><note default-y='32' default-x='197' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2900,7 +2900,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='32' default-x='235' color='#000000'><pitch><step></step>
+   </note><note default-y='32' default-x='235' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2910,7 +2910,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='32' default-x='274' color='#000000'><pitch><step></step>
+   </note><note default-y='32' default-x='274' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2921,14 +2921,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='274' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='32' default-x='312' color='#000000'><pitch><step></step>
+   </note><note default-y='32' default-x='312' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2940,7 +2940,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='312' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2950,7 +2950,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-20' default-x='68' color='#000000'><pitch><step></step>
+   <note default-y='-20' default-x='68' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -2975,7 +2975,7 @@
   <!--============== Part: P1, Measure: 18 ==============-->
   <measure width='304' number='18'>
    <attributes></attributes>
-   <note default-y='-54' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-54' default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -2986,14 +2986,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-54' default-x='53' color='#000000'><pitch><step></step>
+   </note><note default-y='-54' default-x='53' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3007,7 +3007,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='53' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3017,7 +3017,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='-57' default-x='91' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='91' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -3032,7 +3032,7 @@
      <tied type='start'></tied>
     </notations>
    </note><note default-x='91' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -3043,7 +3043,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='91' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -3054,7 +3054,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='91' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -3066,7 +3066,7 @@
     <notations><tied type='stop'></tied>
      <tied type='start'></tied>
     </notations>
-   </note><note default-y='-57' default-x='220' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='220' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3080,7 +3080,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='220' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3091,7 +3091,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='220' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3102,7 +3102,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='220' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3112,7 +3112,7 @@
     <staff></staff>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='-57' default-x='266' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='266' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3125,7 +3125,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='266' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3133,7 +3133,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='266' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3141,7 +3141,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='266' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3152,7 +3152,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3161,7 +3161,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='91' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='91' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3172,7 +3172,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='91' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3180,7 +3180,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-52' default-x='129' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='129' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3192,7 +3192,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-55' default-x='167' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='167' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3201,7 +3201,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='220' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='220' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3211,7 +3211,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='220' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3223,7 +3223,7 @@
   <!--============== Part: P1, Measure: 19 ==============-->
   <measure width='385' number='19'>
    <attributes></attributes>
-   <note default-y='-57' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-57' default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3234,7 +3234,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3242,7 +3242,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3250,14 +3250,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-57' default-x='53' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='53' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3271,7 +3271,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='53' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3282,7 +3282,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='53' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3293,7 +3293,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='53' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3303,7 +3303,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='-57' default-x='91' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='91' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3317,7 +3317,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='91' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3328,7 +3328,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='91' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3339,7 +3339,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='91' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3349,7 +3349,7 @@
     <staff></staff>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='-57' default-x='137' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='137' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3362,7 +3362,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='137' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3370,7 +3370,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='137' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3378,7 +3378,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='137' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3387,7 +3387,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-57' default-x='179' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='179' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3398,7 +3398,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='179' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3408,7 +3408,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='179' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3416,14 +3416,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='179' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-57' default-x='232' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='232' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3437,7 +3437,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='232' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3450,7 +3450,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='232' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3462,7 +3462,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='232' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3473,7 +3473,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='-57' default-x='282' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='282' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3487,7 +3487,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='282' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3499,7 +3499,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='282' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3510,7 +3510,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='282' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3520,7 +3520,7 @@
     <staff></staff>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='-57' default-x='347' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='347' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3533,7 +3533,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='347' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3543,7 +3543,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='347' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3552,7 +3552,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='347' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3563,7 +3563,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-67' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-67' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3573,7 +3573,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3581,7 +3581,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3590,7 +3590,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-49' default-x='91' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='91' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3601,7 +3601,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-49' default-x='137' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='137' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3611,7 +3611,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='179' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='179' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3621,7 +3621,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='282' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='282' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3632,7 +3632,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='282' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3640,7 +3640,7 @@
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-52' default-x='347' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='347' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3669,7 +3669,7 @@
     <staff-details print-object='yes' number='1'></staff-details>
     <staff-details print-object='yes' number='2'></staff-details>
    </attributes>
-   <note default-y='-57' default-x='68' color='#000000'><pitch><step></step>
+   <note default-y='-57' default-x='68' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>768</duration>
@@ -3683,7 +3683,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='68' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -3695,7 +3695,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='68' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -3707,7 +3707,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='68' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -3718,7 +3718,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='-57' default-x='203' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='203' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3732,7 +3732,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='203' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3743,7 +3743,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='203' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3754,7 +3754,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='203' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3764,7 +3764,7 @@
     <staff></staff>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='-57' default-x='257' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='257' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3777,7 +3777,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='257' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3786,7 +3786,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='257' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3794,7 +3794,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='257' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3805,7 +3805,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-10' default-x='68' color='#000000'><pitch><step></step>
+   <note default-y='-10' default-x='68' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3814,7 +3814,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='107' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='107' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3825,14 +3825,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='107' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-52' default-x='135' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='135' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3844,7 +3844,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='164' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='164' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3854,7 +3854,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-55' default-x='203' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='203' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3864,7 +3864,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='203' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -3875,7 +3875,7 @@
   <!--============== Part: P1, Measure: 21 ==============-->
   <measure width='300' number='21'>
    <attributes></attributes>
-   <note default-y='-54' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-54' default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3886,7 +3886,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3894,7 +3894,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3902,14 +3902,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-54' default-x='43' color='#000000'><pitch><step></step>
+   </note><note default-y='-54' default-x='43' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3920,7 +3920,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='43' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3928,7 +3928,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='43' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3936,14 +3936,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='43' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-54' default-x='99' color='#000000'><pitch><step></step>
+   </note><note default-y='-54' default-x='99' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3954,7 +3954,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='99' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3964,7 +3964,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='99' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -3974,14 +3974,14 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='99' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-54' default-x='133' color='#000000'><pitch><step></step>
+   </note><note default-y='-54' default-x='133' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -3992,7 +3992,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='133' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4001,7 +4001,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='133' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4010,14 +4010,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='133' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-49' default-x='167' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='167' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4029,7 +4029,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='167' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4038,7 +4038,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-49' default-x='195' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='195' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4049,14 +4049,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='195' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-49' default-x='230' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='230' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4069,7 +4069,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='230' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4078,7 +4078,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-49' default-x='260' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='260' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4092,7 +4092,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='260' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4104,7 +4104,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='260' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4115,7 +4115,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='260' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4127,7 +4127,7 @@
     </notations>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='22' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='22' default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4137,7 +4137,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4145,7 +4145,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4158,7 +4158,7 @@
     <voice>2</voice>
     <type></type>
     <staff></staff>
-   </note><note default-y='-55' default-x='167' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='167' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -4168,7 +4168,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='167' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4178,7 +4178,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='167' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>512</duration>
@@ -4190,7 +4190,7 @@
   <!--============== Part: P1, Measure: 22 ==============-->
   <measure width='213' number='22'>
    <attributes></attributes>
-   <note default-y='-45' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-45' default-x='15' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4203,7 +4203,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4214,7 +4214,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4225,7 +4225,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4235,7 +4235,7 @@
     <staff></staff>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='17' default-x='58' color='#000000'><pitch><step></step>
+   </note><note default-y='17' default-x='58' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4248,7 +4248,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='58' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4257,7 +4257,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='58' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4265,7 +4265,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='58' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4274,7 +4274,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='17' default-x='86' color='#000000'><pitch><step></step>
+   </note><note default-y='17' default-x='86' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4288,7 +4288,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='86' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4299,7 +4299,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='86' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4310,7 +4310,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='86' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4320,7 +4320,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='20' default-x='118' color='#000000'><pitch><step></step>
+   </note><note default-y='20' default-x='118' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>384</duration>
@@ -4334,7 +4334,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='118' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4346,7 +4346,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='118' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4358,7 +4358,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='118' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4369,7 +4369,7 @@
     <staff></staff>
     <notations><tied type='stop'></tied>
     </notations>
-   </note><note default-y='17' default-x='181' color='#000000'><pitch><step></step>
+   </note><note default-y='17' default-x='181' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4380,7 +4380,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='181' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4388,7 +4388,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='181' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4396,7 +4396,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='181' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4406,7 +4406,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4415,7 +4415,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='58' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='58' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4427,7 +4427,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='58' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4435,7 +4435,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-52' default-x='86' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='86' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4447,7 +4447,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-55' default-x='118' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='118' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4456,7 +4456,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='157' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='157' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4466,7 +4466,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='157' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4478,7 +4478,7 @@
   <!--============== Part: P1, Measure: 23 ==============-->
   <measure width='240' number='23'>
    <attributes></attributes>
-   <note default-y='27' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='27' default-x='15' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4489,7 +4489,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4497,7 +4497,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4505,14 +4505,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='27' default-x='43' color='#000000'><pitch><step></step>
+   </note><note default-y='27' default-x='43' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4523,7 +4523,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='43' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4531,7 +4531,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='43' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4539,14 +4539,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='43' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='27' default-x='71' color='#000000'><pitch><step></step>
+   </note><note default-y='27' default-x='71' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4557,7 +4557,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='71' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4565,7 +4565,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='71' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4573,14 +4573,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='71' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='27' default-x='99' color='#000000'><pitch><step></step>
+   </note><note default-y='27' default-x='99' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4591,7 +4591,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='99' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4599,7 +4599,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='99' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4607,14 +4607,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='99' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-64' default-x='127' color='#000000'><pitch><step></step>
+   </note><note default-y='-64' default-x='127' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4625,7 +4625,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='127' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4635,7 +4635,7 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='127' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4643,14 +4643,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='127' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-64' default-x='155' color='#000000'><pitch><step></step>
+   </note><note default-y='-64' default-x='155' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4661,14 +4661,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='155' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-64' default-x='184' color='#000000'><pitch><step></step>
+   </note><note default-y='-64' default-x='184' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4679,14 +4679,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='184' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-64' default-x='212' color='#000000'><pitch><step></step>
+   </note><note default-y='-64' default-x='212' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4697,7 +4697,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='212' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4706,7 +4706,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-67' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-67' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4716,7 +4716,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4724,7 +4724,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4733,7 +4733,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-49' default-x='71' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='71' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4744,7 +4744,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-49' default-x='99' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='99' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -4754,7 +4754,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='127' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='127' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4764,7 +4764,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-50' default-x='184' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='184' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4774,7 +4774,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='184' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4801,7 +4801,7 @@
     <staff-details print-object='yes' number='1'></staff-details>
     <staff-details print-object='yes' number='2'></staff-details>
    </attributes>
-   <note default-y='-60' default-x='71' color='#000000'><pitch><step></step>
+   <note default-y='-60' default-x='71' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4811,7 +4811,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='71' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4821,14 +4821,14 @@
     <accidental></accidental>
     <staff></staff>
    </note><note default-x='71' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-60' default-x='109' color='#000000'><pitch><step></step>
+   </note><note default-y='-60' default-x='109' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4838,7 +4838,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='109' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4846,7 +4846,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='109' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4855,14 +4855,14 @@
     <type></type>
     <staff></staff>
    </note><note default-x='109' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='20' default-x='147' color='#000000'><pitch><step></step>
+   </note><note default-y='20' default-x='147' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4872,7 +4872,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='147' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4880,7 +4880,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='147' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4888,7 +4888,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='147' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4897,7 +4897,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='10' default-x='189' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='189' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4909,7 +4909,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='189' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4917,7 +4917,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='189' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4925,7 +4925,7 @@
     <type></type>
     <staff></staff>
    </note><note default-x='189' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -4934,7 +4934,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-15' default-x='71' color='#000000'><pitch><step></step>
+   <note default-y='-15' default-x='71' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4945,7 +4945,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-50' default-x='109' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='109' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4957,7 +4957,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='109' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4965,7 +4965,7 @@
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='17' default-x='147' color='#000000'><pitch><step></step>
+   </note><note default-y='17' default-x='147' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4976,7 +4976,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='147' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4985,7 +4985,7 @@
     <type></type>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='5' default-x='189' color='#000000'><pitch><step></step>
+   </note><note default-y='5' default-x='189' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -4996,7 +4996,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='189' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5008,7 +5008,7 @@
   <!--============== Part: P1, Measure: 25 ==============-->
   <measure width='269' number='25'>
    <attributes></attributes>
-   <note default-y='-15' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-15' default-x='15' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>170</duration>
@@ -5023,7 +5023,7 @@
     <staff></staff>
     <notations><tuplet placement='above' default-y='16' number='1' type='start' bracket='yes'></tuplet>
     </notations>
-   </note><note default-y='-57' default-x='47' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='47' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>171</duration>
@@ -5037,7 +5037,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='47' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5049,7 +5049,7 @@
     </time-modification>
     <staff></staff>
    </note><note default-x='47' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5062,7 +5062,7 @@
      <normal-type></normal-type>
     </time-modification>
     <staff></staff>
-   </note><note default-y='17' default-x='78' color='#000000'><pitch><step></step>
+   </note><note default-y='17' default-x='78' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5078,7 +5078,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='78' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5090,7 +5090,7 @@
     </time-modification>
     <staff></staff>
    </note><note default-x='78' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5101,7 +5101,7 @@
      <normal-type></normal-type>
     </time-modification>
     <staff></staff>
-   </note><note default-y='10' default-x='109' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='109' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5117,7 +5117,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='109' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5130,7 +5130,7 @@
     </time-modification>
     <staff></staff>
    </note><note default-x='109' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5141,7 +5141,7 @@
      <normal-type></normal-type>
     </time-modification>
     <staff></staff>
-   </note><note default-x='161' color='#000000'><pitch><step></step>
+   </note><note default-x='161' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>171</duration>
@@ -5155,7 +5155,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='161' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5169,7 +5169,7 @@
     </time-modification>
     <staff></staff>
    </note><note default-x='161' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5182,7 +5182,7 @@
      <normal-type></normal-type>
     </time-modification>
     <staff></staff>
-   </note><note default-x='203' color='#000000'><pitch><step></step>
+   </note><note default-x='203' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -5197,7 +5197,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='203' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -5209,7 +5209,7 @@
     </time-modification>
     <staff></staff>
    </note><note default-x='203' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5222,7 +5222,7 @@
      <normal-type></normal-type>
     </time-modification>
     <staff></staff>
-   </note><note default-x='245' color='#000000'><pitch><step></step>
+   </note><note default-x='245' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5240,7 +5240,7 @@
     <notations><tuplet placement='above' default-y='16' number='1' type='stop' bracket='yes'></tuplet>
     </notations>
    </note><note default-x='245' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5256,7 +5256,7 @@
     <notations><tuplet placement='above' default-y='16' number='1' type='stop' bracket='yes'></tuplet>
     </notations>
    </note><note default-x='245' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5273,7 +5273,7 @@
     </notations>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='20' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='20' default-x='15' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>170</duration>
@@ -5289,7 +5289,7 @@
     <notations><tuplet placement='below' default-y='-75' number='1' type='start' bracket='yes'></tuplet>
     </notations>
    </note><note default-x='15' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5304,7 +5304,7 @@
     <staff></staff>
     <notations><tuplet placement='below' default-y='-75' number='1' type='start' bracket='yes'></tuplet>
     </notations>
-   </note><note default-y='-35' default-x='47' color='#000000'><pitch><step></step>
+   </note><note default-y='-35' default-x='47' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>171</duration>
@@ -5317,7 +5317,7 @@
     </time-modification>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='78' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='78' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5331,7 +5331,7 @@
     </time-modification>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-50' default-x='109' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='109' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5346,7 +5346,7 @@
     </time-modification>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-55' default-x='161' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='161' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>171</duration>
@@ -5359,7 +5359,7 @@
     </time-modification>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='203' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='203' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>85</duration>
@@ -5373,7 +5373,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-52' default-x='245' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='245' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5403,7 +5403,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-x='15' color='#000000'><pitch><step></step>
+   <note default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5412,7 +5412,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='53' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='53' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -5424,14 +5424,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='53' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-52' default-x='85' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='85' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5443,7 +5443,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-55' default-x='113' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='113' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5453,7 +5453,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='151' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='151' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5465,7 +5465,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='151' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5485,7 +5485,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5494,7 +5494,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-49' default-x='53' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='53' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -5506,7 +5506,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='53' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5514,7 +5514,7 @@
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-49' default-x='81' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='81' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5526,7 +5526,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='108' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='108' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5536,7 +5536,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-50' default-x='147' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='147' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5546,7 +5546,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='147' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5566,7 +5566,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-x='15' color='#000000'><pitch><step></step>
+   <note default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5575,7 +5575,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-57' default-x='53' color='#000000'><pitch><step></step>
+   </note><note default-y='-57' default-x='53' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5585,14 +5585,14 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='53' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-55' default-x='91' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='91' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5602,7 +5602,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='129' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='129' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5614,7 +5614,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='129' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5648,7 +5648,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-60' default-x='68' color='#000000'><pitch><step></step>
+   <note default-y='-60' default-x='68' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>384</duration>
@@ -5660,7 +5660,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='68' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5670,7 +5670,7 @@
     <dot></dot>
     <accidental></accidental>
     <staff></staff>
-   </note><note default-y='-60' default-x='115' color='#000000'><pitch><step></step>
+   </note><note default-y='-60' default-x='115' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5685,7 +5685,7 @@
     <notations><tied type='start'></tied>
     </notations>
    </note><note default-x='115' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5696,7 +5696,7 @@
     <staff></staff>
     <notations><tied type='start'></tied>
     </notations>
-   </note><note default-y='-60' default-x='159' color='#000000'><pitch><step></step>
+   </note><note default-y='-60' default-x='159' color='#000000'><pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5710,7 +5710,7 @@
     <notations><tied type='stop'></tied>
     </notations>
    </note><note default-x='159' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>AHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5734,7 +5734,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-x='15' color='#000000'><pitch><step></step>
+   <note default-x='15' color='#000000'><pitch><step>AHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5744,7 +5744,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-52' default-x='49' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='49' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -5755,14 +5755,14 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='49' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-52' default-x='81' color='#000000'><pitch><step></step>
+   </note><note default-y='-52' default-x='81' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5774,7 +5774,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='-55' default-x='107' color='#000000'><pitch><step></step>
+   </note><note default-y='-55' default-x='107' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5783,7 +5783,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-45' default-x='144' color='#000000'><pitch><step></step>
+   </note><note default-y='-45' default-x='144' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5795,7 +5795,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='144' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5815,7 +5815,7 @@
     <staff></staff>
    </note><duration>1024</duration>
    </backup>
-   <note default-y='-5' default-x='15' color='#000000'><pitch><step></step>
+   <note default-y='-5' default-x='15' color='#000000'><pitch><step>GHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5824,7 +5824,7 @@
     <type></type>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-49' default-x='49' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='49' color='#000000'><pitch><step>FHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>128</duration>
@@ -5836,7 +5836,7 @@
     <staff></staff>
     <beam number='1'></beam>
    </note><note default-x='49' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5844,7 +5844,7 @@
     <instrument id='P1-I1'></instrument>
     <type></type>
     <staff></staff>
-   </note><note default-y='-49' default-x='77' color='#000000'><pitch><step></step>
+   </note><note default-y='-49' default-x='77' color='#000000'><pitch><step>DHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
@@ -5856,7 +5856,7 @@
     <stem></stem>
     <staff></staff>
     <beam number='1'></beam>
-   </note><note default-y='10' default-x='103' color='#000000'><pitch><step></step>
+   </note><note default-y='10' default-x='103' color='#000000'><pitch><step>CHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5866,7 +5866,7 @@
     <accidental></accidental>
     <stem></stem>
     <staff></staff>
-   </note><note default-y='-50' default-x='137' color='#000000'><pitch><step></step>
+   </note><note default-y='-50' default-x='137' color='#000000'><pitch><step>EHI0HELLO0GOODBYE</step>
      <octave></octave>
     </pitch>
     <duration>256</duration>
@@ -5876,7 +5876,7 @@
     <stem></stem>
     <staff></staff>
    </note><note default-x='137' color='#000000'><chord></chord>
-    <pitch><step></step>
+    <pitch><step>BHI0HELLO0GOODBYE</step>
      <alter></alter>
      <octave></octave>
     </pitch>
