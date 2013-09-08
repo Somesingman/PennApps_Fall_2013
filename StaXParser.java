@@ -237,6 +237,7 @@ public class StaXParser {
                                 }
                                 else if(event.isStartElement() && 
                                         event.asStartElement().getName().toString().equals(BACKUP)){
+                                	bw.write(event.toString());
                                     event = eventReader.nextEvent();
                                     if(event.isStartElement() && event.asStartElement().getName().toString().equals(DURATION)){
                                         event = eventReader.nextEvent();
