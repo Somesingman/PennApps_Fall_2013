@@ -4,63 +4,53 @@ import java.util.Collections;
 
 public class TimingStuff {
 	
-	/*
-	 * Given a measure and a note, gets the up to n notes (in sorted order) that occurred
-	 * prior to the given note.
-	 * Does NOT take into account previous measure
-	 */
-	public static ArrayList<Note> getMostRecentNotes (ArrayList<Note> measure, Note note, int n){
+	public static ArrayList<Note> getThreePositions(ArrayList<Note> measure, Note note) {
+		//we are getting 3 different positions, all the notes in those positions
 		Collections.sort(measure);
 		int index = measure.indexOf(note);
+		int notePosition = note.getPosition();
 		
-		//see if there are any ties
-		int count = 0;
-		while(note.getPosition() == measure.get(index+count+1).getPosition()){
+		ArrayList<Note> atSamePosition = new ArrayList<Note>();
+		ArrayList<Note> atNextPosition = new ArrayList<Note>();
+		ArrayList<Note> atPrevPosition = new ArrayList<Note>();
+		
+		int count = index + 1;
+		//Get all notes at the same position, forwards
+		//NOTE: won't be in order, shouldn't matter though since they are all at the same position
+		while(measure.get(count).getPosition() == notePosition && count < measure.size()){
+			atSamePosition.add(measure.get(count));
 			count++;
 		}
-		
-		n -= count;
-		
-		ArrayList<Note> answer = new ArrayList<Note>();
-		
-		int i = index - n;
-		if(i < 0) i = 0;
-		while(i < n){
-			answer.add(measure.get(i));			
-			i++;
+		//get all notes at the next position
+		if(count < measure.size()){
+			int nextPosition = measure.get(count).getPosition();
+			while(measure.get(count).getPosition() == nextPosition && count < measure.size()){
+				atNextPosition.add(measure.get(count));
+				count++;
+			}
+		}
+		//get all notes at the same position, backwards
+		count = index - 1;
+		while(measure.get(count).getPosition() == notePosition && count >= 0){
+			atSamePosition.add(measure.get(count));
+			count--;
+		}
+		//get all notes at the previous position
+		if(count > 0){
+			int prevPosition = measure.get(count).getPosition();
+			while(measure.get(count).getPosition() == prevPosition && count >= 0){
+				atPrevPosition.add(measure.get(count));
+				count--;
+			}
 		}
 		
-		for(int j = 0; j < count; j++){
-			answer.add(measure.get(index + j + 1));
-		}
+		ArrayList<Note> finalList = new ArrayList<Note>();
+		finalList.addAll(atSamePosition);
+		finalList.addAll(atPrevPosition);
+		finalList.addAll(atNextPosition);
+		return finalList;
 		
-		return answer;		
 	}
-	
-	/*
-	 * Given a measure and a note, gets the up to n notes (in sorted order) that occurred
-	 * prior to the given note.
-	 * TAKES PREVIOUS MEASURE INTO ACCOUNT
-	 */
-	public static ArrayList<Note> getMostRecentNotes (ArrayList<Note> measure,
-										ArrayList<Note> previousMeasure, Note note, int n){
-		Collections.sort(previousMeasure);
-		ArrayList<Note> notesFromMeasure = getMostRecentNotes(measure, note, n);
-		if(notesFromMeasure.size() == n) return notesFromMeasure;
-		
-		int numToAdd = n - notesFromMeasure.size();
-		int index = previousMeasure.size() - numToAdd;
-		if(index < 0) index = 0;
-		ArrayList<Note> answer = new ArrayList<Note>();
-		while(index < previousMeasure.size()){
-			answer.add(previousMeasure.get(index));
-			index++;
-		}
-		int measureSize = measure.size();
-		for(int i = 0; i < measureSize; i++){
-			answer.add(measure.get(i));
-		}
-		return answer;
-	}
+	//doesn't account for going out of the current measure... don't know if we need to do that
 	
 }

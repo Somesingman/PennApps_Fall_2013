@@ -47,6 +47,7 @@ public class StaXParser {
 			int fifths = 0;
 			while (eventReader.hasNext()) {
 				XMLEvent event = eventReader.nextEvent();
+
 				if (event.isStartElement() && 
 						event.asStartElement().getName().toString().equals(PART)){
 
@@ -147,8 +148,10 @@ public class StaXParser {
 									while(eventReader.hasNext() && !endNote){
 
 										if(event.isEndElement() &&
-												event.asEndElement().getName().toString().equals(NOTE))
+												event.asEndElement().getName().toString().equals(NOTE)){
+											bw.write(event.toString());
 											endNote = true;
+										}
 
 										if(event.isStartElement()){
 											currentTag = event.asStartElement().getName().toString();
@@ -156,6 +159,12 @@ public class StaXParser {
 											bw.write(event.toString());
 											if(currentTag.equals(CHORD))
 												current.setChord(true);
+										}
+										
+										if(event.isEndElement() && !endNote){
+											bw.write(event.toString());
+											event = eventReader.nextEvent();
+											bw.write(event.toString());
 										}
 
 										if(event.isCharacters()){
@@ -172,15 +181,25 @@ public class StaXParser {
 												current.setPosition(counter);
 												current.setDuration(Integer.parseInt(character));
 												counter = counter + current.getDuration();
+												bw.write(event.toString());
 											}
-											if(currentTag.equals(OCTAVE) && current.getOctave() == 0)
+											
+											if(currentTag.equals(OCTAVE) && current.getOctave() == 0){
 												current.setOctave(Integer.parseInt(character));
+												//change octave code
+												bw.write("OCTAVIAN");
+											}
 
-											if(currentTag.equals(ALTER) && current.getAlter() == 0)
+											if(currentTag.equals(ALTER) && current.getAlter() == 0){
 												current.setAlter(Integer.parseInt(character));
+												//where you change alter
+												bw.write("ALTERION");
+											}
 
-											if(currentTag.equals(VOICE) && current.getVoice() == 0)
+											if(currentTag.equals(VOICE) && current.getVoice() == 0){
 												current.setVoice(Integer.parseInt(character));
+												bw.write(character);
+											}
 										}
 										//System.out.println(event.asCharacters().getData());
 										event = eventReader.nextEvent();
@@ -204,7 +223,8 @@ public class StaXParser {
 									}
 								}
 								else
-									bw.write(event.toString());
+									bw.write(event.toString());	
+								
 							}
 
 						}

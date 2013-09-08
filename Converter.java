@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -11,7 +12,8 @@ public class Converter {
 	int[] noteValues;
 	
 	HashMap<Integer, String> majorKeyFromFifth;
-	HashMap<Integer, String> minorKeyFromFifth; 
+	HashMap<Integer, String> minorKeyFromFifth;
+
 	
 	public Converter(){
 		notes = Arrays.asList("C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#",
@@ -71,6 +73,7 @@ public class Converter {
 			int VII = (keyNumber - 1) % 12;
 			
 			int inputNumber = (noteValues[notes.indexOf(input.getStep())] + input.getAlter()) % 12;
+			
 			
 			if(inputNumber == III || inputNumber == VI || (inputNumber == VII && isDominant(measure,key))){
 				//if we aren't changing note name, just alter -1

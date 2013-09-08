@@ -68,7 +68,8 @@ public class Note implements Comparable<Note>{
 	public String toString(){
 		return "Chord: " + chord + "\nDuration: " + duration + 
 				"\nStep: " + step + "\nOctave: " + octave + "\nPosition: " + position
-				+ "\nFifth: " + fifth + "\nMode: " + mode;
+				+ "\nFifth: " + fifth + "\nMode: " + mode + "\nVoice:" + voice;
+
 	}
 	@Override
 	public int compareTo(Note n) {
