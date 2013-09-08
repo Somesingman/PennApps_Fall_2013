@@ -12,8 +12,7 @@ public class TestConverter {
 		n.setOctave(3);
 		n.setStep("C");
 		n.setAlter(0);
-		Note result = c.convert(n, "Db", "toMin", true);
-		
+		Note result = c.convert(n, "Db", "toMin", null);
 		assertTrue(result.getStep().equals("B"));
 		assertTrue(result.getAlter() == 0);
 		assertTrue(result.getOctave() == 2);		
@@ -25,12 +24,10 @@ public class TestConverter {
 		n.setOctave(3);
 		n.setStep("F");
 		n.setAlter(0);
-		Note result = c.convert(n, "C#", "toMin", false);
-		
+		Note result = c.convert(n, "C#", "toMin", null);
 		assertTrue(result.getStep().equals("E"));
 		assertTrue(result.getAlter() == 0);
 		assertTrue(result.getOctave() == 3);
-		
 	}
 	@Test
 	public void testConverter3() {
@@ -39,12 +36,10 @@ public class TestConverter {
 		n.setOctave(3);
 		n.setStep("A");
 		n.setAlter(-1);
-		Note result = c.convert(n, "B", "toMin", false);
-		
+		Note result = c.convert(n, "B", "toMin", null);
 		assertTrue(result.getStep().equals("G"));
 		assertTrue(result.getAlter() == 0);
-		assertTrue(result.getOctave() == 3);
-		
+		assertTrue(result.getOctave() == 3);	
 	}
 	@Test
 	public void testConverter4() {
@@ -53,12 +48,10 @@ public class TestConverter {
 		n.setOctave(3);
 		n.setStep("D");
 		n.setAlter(1);
-		Note result = c.convert(n, "B", "toMin", false);
-		
+		Note result = c.convert(n, "B", "toMin", null);
 		assertTrue(result.getStep().equals("D"));
 		assertTrue(result.getAlter() == 0);
 		assertTrue(result.getOctave() == 3);
-		
 	}
 	@Test
 	public void testConverter5() {
@@ -67,8 +60,7 @@ public class TestConverter {
 		n.setOctave(3);
 		n.setStep("G");
 		n.setAlter(0);
-		Note result = c.convert(n, "A#", "toMin", false);
-		
+		Note result = c.convert(n, "A#", "toMin", null);
 		assertTrue(result.getStep().equals("G"));
 		assertTrue(result.getAlter() == -1);
 		assertTrue(result.getOctave() == 3);

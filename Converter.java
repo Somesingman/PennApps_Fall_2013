@@ -1,3 +1,5 @@
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -11,6 +13,7 @@ public class Converter {
 	
 	HashMap<Integer, String> majorKeyFromFifth;
 	HashMap<Integer, String> minorKeyFromFifth;
+
 	
 	public Converter(){
 		notes = Arrays.asList("C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#",
@@ -60,7 +63,7 @@ public class Converter {
 	 * Based on a key, if you're going major->minor or the other way around, and if you change
 	 * the VII, takes in a note and returns what the note should be changed to (if anything)
 	 */
-	public Note convert(Note input, String key, String toMaj_or_toMin, boolean changeVII){
+	public Note convert(Note input, String key, String toMaj_or_toMin, ArrayList<Note> measure){
 		if(toMaj_or_toMin.equals("toMin")){
 			int index = notes.indexOf(key);
 			int keyNumber = noteValues[index];
@@ -71,7 +74,8 @@ public class Converter {
 			
 			int inputNumber = (noteValues[notes.indexOf(input.getStep())] + input.getAlter()) % 12;
 			
-			if(inputNumber == III || inputNumber == VI || (inputNumber == VII && changeVII)){
+			
+			if(inputNumber == III || inputNumber == VI || (inputNumber == VII && isDominant(measure,key))){
 				//if we aren't changing note name, just alter -1
 				if(input.getAlter() != -1 && !input.getStep().equals("C")
 										  && !input.getStep().equals("F")) 
@@ -129,4 +133,27 @@ public class Converter {
 		return notes.get(index);
 	}
 	
+	public boolean isDominant(ArrayList<Note> noteList, String key) {
+		int tonic = noteValues[notes.indexOf(key)];
+		int dominant = (tonic + 7) % 12;
+		List<Integer> tonicMembers = Arrays.asList(tonic,(tonic+4)%12,(tonic+7)%12);
+		List<Integer> dominantMembers = Arrays.asList(dominant,(dominant+4)%12,(tonic+7)%12);
+		int tonicScore = 0;
+		int dominantScore = 0;
+		//Iterate through notes list twice: one to calculate tonicScore, one to calculate dominant
+		//If dominatnScore > tonicScore, return true, else false
+		for (Note n : noteList) {
+			int value = noteValues[notes.indexOf(n.getStep())];
+			if (tonicMembers.contains(value)) {
+				tonicScore++;
+			}
+			else if (dominantMembers.contains(value)) {
+				dominantScore++;
+			}
+		}
+		if (dominantScore > tonicScore) {
+			return true;
+		}
+		else { return false; }
+	}
 }

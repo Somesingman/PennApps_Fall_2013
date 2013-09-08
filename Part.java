@@ -71,7 +71,6 @@ public class Part {
 		this.duration = duration;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Part [alter=" + alter + ", measure=" + measure + ", octave="

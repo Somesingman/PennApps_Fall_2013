@@ -47,7 +47,7 @@ public class StaXParser {
 			int fifths = 0;
 			while (eventReader.hasNext()) {
 				XMLEvent event = eventReader.nextEvent();
-				
+
 				if (event.isStartElement() && 
 						event.asStartElement().getName().toString().equals(PART)){
 
@@ -201,7 +201,6 @@ public class StaXParser {
 												bw.write(character);
 											}
 										}
-										
 										//System.out.println(event.asCharacters().getData());
 										event = eventReader.nextEvent();
 									}
@@ -225,6 +224,7 @@ public class StaXParser {
 								}
 								else
 									bw.write(event.toString());	
+								
 							}
 
 						}
