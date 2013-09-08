@@ -173,10 +173,12 @@ public class StaXParser {
                                             String eventName = event.asEndElement().getName().toString();
                                             if(eventName.equals(STEP))
                                                 bw.write(newNote.getStep() + event.toString());
-                                            if(eventName.equals(ALTER))
+                                            else if(eventName.equals(ALTER))
                                                 bw.write(newNote.getAlter() + event.toString());
-                                            if(eventName.equals(OCTAVE))
+                                            else if(eventName.equals(OCTAVE))
                                                 bw.write(newNote.getOctave() + event.toString());
+                                            else
+                                            	bw.write(event.toString());
                                             event = eventReader.nextEvent();
                                         }
 
