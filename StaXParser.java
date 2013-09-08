@@ -31,6 +31,12 @@ public class StaXParser {
 
 	public void readConfig(String configFile) {
 		try {
+
+			Converter c = new Converter();
+
+			//input a note and string key and measure
+			//method "what_key" given (fifths and mode) outputs string which is the key
+
 			// First create a new XMLInputFactory
 			XMLInputFactory inputFactory = XMLInputFactory.newInstance();
 			// Setup a new eventReader
@@ -89,7 +95,7 @@ public class StaXParser {
 													}
 													else if(event.isStartElement()){
 														currentTag = event.asStartElement().getName().toString();
-														
+
 														bw.write(event.toString());
 														if(event.isStartElement() &&
 																event.asStartElement().getName().toString().equals(FIFTHS)){
@@ -142,6 +148,7 @@ public class StaXParser {
 									Note current = new Note();
 									current.setMode(mode);
 									current.setFifth(fifths);
+									String key = c.whatKey(mode, fifths);
 									boolean endNote = false;
 									String currentTag = "";
 
@@ -155,12 +162,12 @@ public class StaXParser {
 
 										if(event.isStartElement()){
 											currentTag = event.asStartElement().getName().toString();
-											
+
 											bw.write(event.toString());
 											if(currentTag.equals(CHORD))
 												current.setChord(true);
 										}
-										
+
 										if(event.isEndElement() && !endNote){
 											bw.write(event.toString());
 											event = eventReader.nextEvent();
@@ -168,13 +175,37 @@ public class StaXParser {
 										}
 
 										if(event.isCharacters()){
-											String character = event.asCharacters().getData().toString();
+
 											
+											String character = event.asCharacters().getData().toString();
+											boolean pitch = false;
+
 											//System.out.println(currentTag + " : " + character);
 											if(currentTag.equals(STEP) && current.getStep().length()!=1){
 												current.setStep(character);
 												//putting hash but here is where you change it
-												bw.write("#");
+												pitch = true;
+											}
+
+											if(currentTag.equals(ALTER) && current.getAlter() == 0){
+												current.setAlter(Integer.parseInt(character));
+												//where you change alter
+
+											}
+
+											if(currentTag.equals(OCTAVE) && current.getOctave() == 0){
+												current.setOctave(Integer.parseInt(character));
+												//change octave code
+
+											}
+											
+											
+											
+											if(pitch){
+												Note newNote = c.convert(current, key, "toMin", measure);
+												bw.write(newNote.getStep());
+												bw.write(newNote.getAlter());
+												bw.write(newNote.getOctave());
 											}
 
 											if(currentTag.equals(DURATION) && current.getDuration() == 0){
@@ -183,23 +214,17 @@ public class StaXParser {
 												counter = counter + current.getDuration();
 												bw.write(event.toString());
 											}
-											
-											if(currentTag.equals(OCTAVE) && current.getOctave() == 0){
-												current.setOctave(Integer.parseInt(character));
-												//change octave code
-												bw.write("OCTAVIAN");
-											}
-
-											if(currentTag.equals(ALTER) && current.getAlter() == 0){
-												current.setAlter(Integer.parseInt(character));
-												//where you change alter
-												bw.write("ALTERION");
-											}
 
 											if(currentTag.equals(VOICE) && current.getVoice() == 0){
 												current.setVoice(Integer.parseInt(character));
+												System.out.println(event.asCharacters().getData());
 												bw.write(character);
 											}
+
+
+
+
+
 										}
 										//System.out.println(event.asCharacters().getData());
 										event = eventReader.nextEvent();
@@ -224,7 +249,7 @@ public class StaXParser {
 								}
 								else
 									bw.write(event.toString());	
-								
+
 							}
 
 						}

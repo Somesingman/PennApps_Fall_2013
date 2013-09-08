@@ -72,6 +72,7 @@ public class Converter {
 			int VI = (keyNumber - 3) % 12;
 			int VII = (keyNumber - 1) % 12;
 			
+			System.out.println(input.getStep() + notes.indexOf(input.getStep()) + "kkkkkk");
 			int inputNumber = (noteValues[notes.indexOf(input.getStep())] + input.getAlter()) % 12;
 			
 			
